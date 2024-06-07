@@ -1,0 +1,2 @@
+<Task Emphasis>
+1) Each sample should include a list of sentence tokens and their corresponding class labels. It is imperative that the exact same number of class labels are used as tokens in the sentence. 2) Ensure that each label corresponds to its corresponding entity type. 3) Ensure the samples are of adequate length. 4) The complete set of generated samples should cover all requested entity types, but individual samples may vary in the number of entity types included.

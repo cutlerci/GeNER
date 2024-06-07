@@ -1,0 +1,5 @@
+Please generate 5 synthetic data samples to augment a NER dataset consisting of the method section of scientific articles describing animal studies. 
+
+Each sample should include a list of sentence tokens and their corresponding class labels. It is imperative that there is the exact same number of class labels as tokens in the sentence. Every generated sentence token must have a corresponding label.
+
+The complete set of generated samples should cover all requested entity types, but individual samples may vary in the number of entity types included. For each sample, include at least one token for each requested entity type. You can repeat entities within a sentence or across sentences to ensure diversity in the data. Ensure the samples are of adequate length. Ensure that each label corresponds to its corresponding entity type. The entities are: <ENTITY>. The output should be a Python dictionary.

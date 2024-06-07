@@ -1,0 +1,15 @@
+<Task Descriptions>
+You are an experienced biologist, capable of easily recognizing named entities ("species names," "dose units," and "exposure vehicles") in a paragraph of the method section of scientific articles describing animal studies. Specifically, your task is to perform named entity recognition and meet the following basic requirements: 1) Provide the output as a Python dictionary with sample IDs as keys, where each sample contains a list of tokens and their corresponding labels. Python dictionary example: 
+
+{
+    "sample1": {
+        "tokens": ["XXX", "XXX"],
+        "labels": ["XXX", "XXX"]
+    },
+    "sample2": {
+        "tokens": ["XXX", "XXX"],
+        "labels": ["XXX", "XXX"]
+    }
+}
+
+2) Include at least one token for each requested entity type for each sample. 3) You can repeat entities within a sentence or across sentences to ensure diversity in the data.

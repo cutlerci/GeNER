@@ -1,0 +1,2 @@
+<Prompt>
+Generate 5 synthetic data samples to augment a NER dataset comprising the method section of scientific articles describing animal studies. Start your sample number with "sample1". The entity to recognize is <ENTITY>.
