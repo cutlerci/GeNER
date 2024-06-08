@@ -30,6 +30,9 @@ pip install -r requirements.txt
 ```bash
 pip install -e .
 ```
+## Large Langauge Model Setup
+### OpenAI Setup
+You will need to get set up with your Open AI key. See ```https://platform.openai.com/docs/quickstart``` for more details.
 
 ## Usage
 GeNER is used through its command line interface. To run the project, execute the following command:
