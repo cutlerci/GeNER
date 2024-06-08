@@ -44,18 +44,37 @@ def add_calculated_args(args):
     Returns: 
         args: Populated namespace containing addtional arguments that are derived from the user provided arguments.
     """
-    if args.num_shots % len(args.entities) != 0:
-        raise ValueError("Num_shots must be evenly divisible by the number of entities for which synthetic data should be generated.")
-    
+   
     # Adjust the number of requested exemplars based on the number of user selected entities.
     args.requested_exemplars = int(args.num_prompts * (args.num_shots / len(args.entities)))
 
     return args
 
+
+def validate_args(args):
+    """
+    Custom validation of the user provided arguments.
+
+    Args:
+        args: Populated namespace from parsing user provided arguments.
+    """
+
+    if args.num_prompts <= 0:
+        raise ValueError("Num_prompts must be greater than zero.")
+    
+    if args.num_shots <= 0:
+        raise ValueError("num_shots must be greater than zero.")
+    
+    if args.num_shots % len(args.entities) != 0:
+        raise ValueError("Num_shots must be evenly divisible by the number of entities for which synthetic data should be generated.")
+
+    if args.generate_num_samples % args.generative_batch_size != 0:
+        raise ValueError("generate_num_samples must be evenly divisible by generative_batch_size.")
+
+
 # In order of priority
 # TODO: Incorporate logging into the pipeline.
 # TODO: Connect with Fig's components.
-# TODO: Add checks for valid GBS and GNS compared to NP.
 # TODO: Unit testing
 # TODO: Add functionality to override the number of requested prompts if not enough suitable instances exist.
 # TODO: Refactor to handle multiple user selected entity types.
