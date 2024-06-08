@@ -1,0 +1,11 @@
+gener/__pycache__/build_prompts.cpython-311.pyc
+gener/__pycache__/extract_exemplars.cpython-311.pyc
+gener/__pycache__/format_functions.cpython-311.pyc
+gener/__pycache__/query_llm.cpython-311.pyc
+gener/__pycache__/query_openai_model.cpython-311.pyc
+gener/__pycache__/__init__.cpython-311.pyc
+gener/__pycache__/data_preprocessing.cpython-311.pyc
+gener/__pycache__/__main__.cpython-311.pyc
+gener/prompt_components/.DS_Store
+synthetic_data/*
+gener.log
