@@ -58,7 +58,7 @@ def extract_exemplars(preprocessed_data_path, user_selected_entity, num_exemplar
     count_dict = get_label_counts(preprocessed_data_df) 
 
     # Identify the least frequently seen entity in each instance.
-    add_sentence_tag(preprocessed_data_df, count_dict, None, extract_exemplars=True)
+    add_sentence_tag(preprocessed_data_df, count_dict)
     preprocessed_data_df = preprocessed_data_df.reset_index()
 
 

@@ -55,7 +55,6 @@ def add_calculated_args(args):
 # In order of priority
 # TODO: Incorporate logging into the pipeline.
 # TODO: Connect with Fig's components.
-# TODO: Refactor add_sentence_numbers to remove unnecesaary functionality.
 # TODO: Add checks for valid GBS and GNS compared to NP.
 # TODO: Unit testing
 # TODO: Add functionality to override the number of requested prompts if not enough suitable instances exist.
