@@ -77,11 +77,9 @@ def validate_args(args):
 
 
 # In order of priority
-# TODO: Incorporate logging into the pipeline.
 # TODO: Connect with Fig's components.
 # TODO: Unit testing
 # TODO: Add functionality to override the number of requested prompts if not enough suitable instances exist.
-# TODO: Refactor to handle multiple user selected entity types.
 
 def main():
     # Argument Parser Setup
