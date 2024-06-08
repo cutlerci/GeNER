@@ -1,4 +1,5 @@
 import os
+import logging
 from openai import OpenAI
 
 def query_openai_model(generative_model, generative_batch_size, generate_num_samples):
@@ -10,6 +11,8 @@ def query_openai_model(generative_model, generative_batch_size, generate_num_sam
         generative_batch_size: The number of samples to generate in a single conversation.
         generate_num_samples: The total number of samples to generate using each prompt.
     """
+
+    logging.info(f"Reading available prompts.")
     prompts = {}
 
     # If ad-hoc prompts exist, read them into memory.
@@ -34,6 +37,7 @@ def query_openai_model(generative_model, generative_batch_size, generate_num_sam
 
     for prompt_name, prompt in prompts.items():
         for generative_batch in range(0, number_of_batches):
+            logging.info(f"Generating {prompt_name}, batch {generative_batch}.")
             client = OpenAI()
             my_messages=[{"role": "user", "content": prompt}]
 
@@ -50,3 +54,4 @@ def query_openai_model(generative_model, generative_batch_size, generate_num_sam
 
                 my_messages += [{"role": "assistant", "content": completion.choices[0].message.content}]
                 my_messages += [{"role": "user", "content": "Create 5 more."}]
+    logging.info(f"LLM data generation complete.\n\n")

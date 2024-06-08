@@ -1,5 +1,6 @@
 import os
 import random
+import logging
 import pandas as pd
 
 from gener.data_preprocessing import get_label_counts, add_sentence_tag
@@ -64,6 +65,7 @@ def extract_exemplars(preprocessed_data_path, user_selected_entity, num_exemplar
 
     # <><><> Extract Exemplars <><><>
     # Identify instances that are suitable to serve as exemplars for each user selected entity type.
+    logging.info(f"Identifying instances that are suitable to serve as {user_selected_entity[0]} exemplars.")
     entity_count, exemplar_indices = locate_suitable_exemplars(preprocessed_data_df, user_selected_entity[0])
 
 
@@ -78,6 +80,7 @@ def extract_exemplars(preprocessed_data_path, user_selected_entity, num_exemplar
     random_numbers = random.sample(range(0, entity_count), num_exemplars)
 
     # Extract exemplars by building a dictionary of the randomly selected instances.
+    logging.info(f"Extracting exemplars.")
     extracted_exemplars = {}
     for exemplar_id, random_number in enumerate(random_numbers):
         # Select a random suitable exemplar.
@@ -92,8 +95,10 @@ def extract_exemplars(preprocessed_data_path, user_selected_entity, num_exemplar
     os.makedirs("synthetic_data/exemplars/", exist_ok=True)
     output_file = f"synthetic_data/exemplars/{user_selected_entity[0]}_exemplars.txt"
     
+    logging.info(f"Formatting exemplars to be saved to a file.")
     formatted_exemplars = format_exemplars_for_export(extracted_exemplars)
 
+    logging.info(f"Saving exemplars to {output_file}\n\n")    
     with open(output_file, 'a' if os.path.exists(output_file) else 'w') as file:
         file.write(formatted_exemplars)
     

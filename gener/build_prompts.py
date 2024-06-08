@@ -1,5 +1,6 @@
 import os
 import re
+import logging
 from gener.format_functions import format_list_of_entities, format_single_exemplar
 
 
@@ -15,6 +16,8 @@ def build_ad_hoc_prompts(formatted_entities, exemplars, partitioned_exemplar_key
         num_prompts: The number of prompts to be created. Used for all requested prompting strategies.
         num_shots: The number of examples to be included in each prompt.
     """
+
+    logging.info(f"Building ad_hoc prompts.")
 
     # <><><> Read in the ad-hoc prompt strategy components <><><>
     with open('gener/prompt_components/ad_hoc_upper.txt', 'r') as file:
@@ -44,8 +47,11 @@ def build_ad_hoc_prompts(formatted_entities, exemplars, partitioned_exemplar_key
 
         # Save the prompt to a file.
         output_file_path = f"synthetic_data/prompts/ad_hoc/prompt_{prompt_id}.txt"
+        logging.info(f"Saving ad_hoc prompt_{prompt_id}")
         with open(output_file_path, 'w') as file:
             file.write(prompt)
+
+    logging.info(f"ad_hoc prompts complete.\n\n ")
 
 
 
@@ -62,6 +68,8 @@ def build_kee_prompts(user_selected_entity, formatted_entities, exemplars, parti
         num_prompts: The number of prompts to be created. Used for all requested prompting strategies.
         num_shots: The number of examples to be included in each prompt.
     """
+
+    logging.info(f"Building kee prompts.")
 
     # <><><> Read in the kee prompt strategy components <><><>
     with open('gener/prompt_components/task_description.txt', 'r') as file:
@@ -100,8 +108,11 @@ def build_kee_prompts(user_selected_entity, formatted_entities, exemplars, parti
 
         # Save the prompt to a file.
         output_file_path = f"synthetic_data/prompts/kee/prompt_{prompt_id}.txt"
+        logging.info(f"Saving kee prompt_{prompt_id}")
         with open(output_file_path, 'w') as file:
             file.write(prompt)
+
+    logging.info(f"kee prompts complete.\n\n ")
 
 
 

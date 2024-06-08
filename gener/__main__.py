@@ -1,4 +1,8 @@
 import argparse
+import logging
+import datetime as dt
+from sys import argv
+
 from gener.extract_exemplars import extract_exemplars
 from gener.build_prompts import build_prompts
 from gener.query_llm import query_llm
@@ -80,10 +84,21 @@ def validate_args(args):
 # TODO: Refactor to handle multiple user selected entity types.
 
 def main():
+    # Argument Parser Setup
     parser = create_parser()
     args = parser.parse_args()
+    validate_args(args)
     args = add_calculated_args(args)
-    
+
+    # Logging Setup
+    logger = logging.getLogger(__name__)
+    logging.basicConfig(filename='gener.log', level=logging.INFO)
+    logging.info(f"GeNER \nCommand: python -m gener {' '.join(argv[1:])}")
+    start_time = dt.datetime.now()
+    start_timestamp = start_time.strftime('%Y-%m-%d %H:%M:%S')
+    logging.info(f'\n\nSTART TIME: {start_timestamp}\n')
+
+    # Synthetic Data Generation
     extracted_exemplars = extract_exemplars(preprocessed_data_path=args.dataset_path, 
                                             user_selected_entity=args.entities, 
                                             num_exemplars=args.requested_exemplars)
@@ -97,6 +112,16 @@ def main():
     query_llm(generative_model=args.generative_model,
               generative_batch_size=args.generative_batch_size,
               generate_num_samples=args.generate_num_samples)
+
+
+    # Calculate/print end time
+    end_time = dt.datetime.now()
+    end_timestamp = end_time.strftime('%Y-%m-%d %H:%M:%S')
+    logging.info(f'END TIME: {end_timestamp}')
+
+    # Calculate/print time elapsed
+    elapsed_time: dt.timedelta = end_time - start_time
+    logging.info(f'TIME ELAPSED: {elapsed_time}')
 
 
 if __name__ == "__main__":
