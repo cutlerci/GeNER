@@ -1,22 +1,22 @@
 {
-	"sample1": {
-		"tokens": ["In", "the", "current", "study", ",", "zebrafish", "were", "exposed", "to", "increasing", "concentrations", "of", "copper", "sulfate", "."],
-		"labels": ["O", "O", "O", "O", "O", "Species", "O", "O", "O", "O", "O", "O", "Species", "Species"]
-	},
-	"sample2": {
-		"tokens": ["The", "mice", "were", "housed", "in", "a", "temperature-controlled", "room", "with", "a", "12-hour", "light-dark", "cycle", "."],
-		"labels": ["O", "Species", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
-	},
-	"sample3": {
-		"tokens": ["To", "assess", "the", "impact", "of", "various", "toxins", "on", "frog", "development", ",", "Xenopus", "laevis", "tadpoles", "were", "used", "."],
-		"labels": ["O", "O", "O", "O", "O", "O", "O", "O", "Species", "O", "O", "Species", "Species", "Species", "O", "O"]
-	},
-	"sample4": {
-		"tokens": ["Rats", "fed", "a", "high-fat", "diet", "showed", "significantly", "increased", "body", "weight", "compared", "to", "control", "rats", "."],
-		"labels": ["Species", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "Species", "Species", "O"]
-	},
-	"sample5": {
-		"tokens": ["The", "effect", "of", "pesticide", "exposure", "on", "bee", "colonies", "was", "studied", "over", "a", "6-month", "period", "."],
-		"labels": ["O", "O", "O", "O", "O", "O", "Species", "Species", "O", "O", "O", "O", "O", "O", "O"]
-	}
+    "sample1": {
+        "tokens": ['The', 'rat', 'model', 'is', 'commonly', 'used', 'in', 'biomedical', 'research', 'to', 'study', 'various', 'diseases', '.'],
+        "labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    },
+    "sample2": {
+        "tokens": ['C57BL/6', 'mice', 'were', 'fed', 'a', 'high-fat', 'diet', 'to', 'induce', 'obesity', 'for', 'subsequent', 'intervention', 'studies', '.'],
+        "labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    },
+    "sample3": {
+        "tokens": ['Zebra', 'fish', 'were', 'exposed', 'to', 'different', 'concentrations', 'of', 'pollutants', 'in', 'water', 'to', 'assess', 'changes', 'in', 'gene', 'expression', '.'],
+        "labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    },
+    "sample4": {
+        "tokens": ['African', 'clawed', 'frogs', 'were', 'used', 'in', 'developmental', 'studies', 'involving', 'exposure', 'to', 'chemicals', 'of', 'interest', '.'],
+        "labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    },
+    "sample5": {
+        "tokens": ['Rhesus', 'macaques', 'were', 'trained', 'to', 'perform', 'cognitive', 'tasks', 'for', 'neuroscience', 'research', 'purposes', '.'],
+        "labels": ['Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }
 }

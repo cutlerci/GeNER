@@ -1,22 +1,22 @@
 {
 	"sample1": {
-		"tokens": ['Rats', 'were', 'administered', 'a', 'daily', 'dose', 'of', '1', 'mg/kg', 'of', 'caffeine', 'via', 'oral', 'gavage', 'for', '14', 'consecutive', 'days', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
+		"tokens": ['To', 'assess', 'the', 'impact', 'of', 'ozone', 'exposure', 'on', 'lung', 'function', ',', 'mice', 'from', 'the', 'Balb/c', 'strain', 'were', 'subjected', 'to', 'daily', 'challenges', 'for', '4', 'weeks', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'Species', 'O', 'O', 'Species', 'O', 'O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    },
 	"sample2": {
-		"tokens": ['The', 'mice', 'were', 'trained', 'to', 'navigate', 'a', 'maze', 'to', 'obtain', 'a', 'food', 'reward', 'within', 'a', 'specific', 'time', 'frame', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
+		"tokens": ['Sprague-Dawley', 'rats', 'were', 'selected', 'as', 'the', 'model', 'species', 'for', 'the', 'study', 'due', 'to', 'their', 'well-documented', 'physiological', 'responses', 'to', 'drug', 'administration', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O']
+    },
 	"sample3": {
-		"tokens": ['Frogs', 'were', 'exposed', 'to', 'different', 'concentrations', 'of', 'pesticides', 'in', 'their', 'habitats', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
+		"tokens": ['The', 'fish', 'used', 'in', 'the', 'experiment', 'were', 'zebrafish', '(', 'Danio', 'rerio', ')', 'obtained', 'from', 'a', 'certified', 'breeding', 'facility', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    },
 	"sample4": {
-		"tokens": ['Fish', 'were', 'placed', 'in', 'a', 'container', 'with', 'varying', 'water', 'temperatures', 'to', 'observe', 'their', 'thermal', 'tolerance', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
+		"tokens": ['In', 'this', 'study', ',', 'we', 'chose', 'C57BL/6', 'mice', 'as', 'the', 'experimental', 'species', 'due', 'to', 'their', 'genetic', 'uniformity', 'and', 'well-characterized', 'behavioral', 'traits', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'Species', 'Species', 'O', 'O', 'O', 'Species', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    },
 	"sample5": {
-		"tokens": ['Birds', 'in', 'the', 'study', 'were', 'marked', 'with', 'colorful', 'leg', 'bands', 'for', 'identification', 'during', 'field', 'observations', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['To', 'simulate', 'environmental', 'conditions', 'in', 'the', 'wild', ',', 'we', 'used', 'Caucasian', 'skinks', '(', 'Chalcides', 'lacertina', ')', 'as', 'our', 'model', 'species', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'Species', 'O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'Species', 'O']
     }
 }

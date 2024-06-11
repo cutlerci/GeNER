@@ -1,22 +1,22 @@
 {
 	"sample0": {
-		"tokens": ['The', 'rats', 'were', 'housed', 'in', 'standard', 'laboratory', 'cages', 'with', 'ad', 'libitum', 'access', 'to', 'food', 'and', 'water', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Male', 'Wildtype', 'C57BL/6J', 'mice', 'aged', '8', 'weeks', 'were', 'used', 'in', 'this', 'experiment', '.'],
+		"labels": ['Species', 'Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample1": {
-		"tokens": ['During', 'the', 'experiment', ',', 'mice', 'were', 'kept', 'on', 'a', '12', '-', 'hour', 'light', '/', 'dark', 'cycle', 'with', 'ambient', 'temperature', 'and', 'humidity', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Sprague-Dawley', 'rats', 'weighing', 'between', '250-300', 'grams', 'were', 'housed', 'individually', 'in', 'a', 'controlled', 'environment', '.'],
+		"labels": ['Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample2": {
-		"tokens": ['The', 'guinea', 'pigs', 'used', 'in', 'the', 'study', 'were', 'weighed', 'daily', 'and', 'the', 'experimental', 'procedure', 'was', 'conducted', 'according', 'to', 'ethical', 'guidelines', '.'],
-		"labels": ['O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'study', 'included', 'female', 'F344', 'rats', 'from', 'two', 'independent', 'breeding', 'colonies', '.'],
+		"labels": ['O', 'O', 'O', 'Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample3": {
-		"tokens": ['All', 'rabbits', 'used', 'in', 'the', 'trial', 'were', 'acclimatized', 'for', 'one', 'week', 'before', 'the', 'beginning', 'of', 'the', 'experiment', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Three', 'groups', 'of', 'male', 'CD-1', 'mice', 'were', 'randomly', 'assigned', 'to', 'different', 'treatment', 'conditions', '.'],
+		"labels": ['O', 'O', 'O', 'Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample4": {
-		"tokens": ['The', 'dogs', 'were', 'grouped', 'based', 'on', 'weight', 'and', 'breed', 'before', 'the', 'start', 'of', 'the', 'training', 'sessions', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Wistar', 'albino', 'rats', 'were', 'acclimatized', 'to', 'the', 'laboratory', 'conditions', 'for', 'a', 'period', 'of', 'one', 'week', '.'],
+		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }
 }

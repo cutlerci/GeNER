@@ -6,6 +6,7 @@ from sys import argv
 from gener.extract_exemplars import extract_exemplars
 from gener.build_prompts import build_prompts
 from gener.query_llm import query_llm
+from gener.pickle_synthetic_data import pickle_synthetic_data
 
 def create_parser():
     """
@@ -77,7 +78,6 @@ def validate_args(args):
 
 
 # In order of priority
-# TODO: Connect with Fig's components.
 # TODO: Unit testing
 # TODO: Add functionality to override the number of requested prompts if not enough suitable instances exist.
 
@@ -111,6 +111,8 @@ def main():
               generative_batch_size=args.generative_batch_size,
               generate_num_samples=args.generate_num_samples)
 
+    pickle_synthetic_data(prompt_strategies=args.prompt_strategies,
+                          generative_batch_size=args.generative_batch_size)
 
     # Calculate/print end time
     end_time = dt.datetime.now()

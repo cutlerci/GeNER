@@ -1,22 +1,22 @@
 {
 	"sample1": {
-		"tokens": ['In', 'this', 'study', ',', 'rabbits', 'were', 'administered', 'various', 'doses', 'of', 'the', 'test', 'compound', 'to', 'observe', 'its', 'effect', 'on', 'eye', 'health', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'mice', 'were', 'housed', 'individually', 'in', 'standard', 'plastic', 'cages', 'with', 'access', 'to', 'food', 'and', 'water', 'ad', 'libitum', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample2": {
-		"tokens": ['The', 'behavior', 'of', 'captive', 'parrots', 'was', 'monitored', 'for', 'several', 'weeks', 'to', 'assess', 'their', 'interaction', 'with', 'enrichment', 'devices', '.'],
-		"labels": ['O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O']
+		"tokens": ['The', 'rabbits', 'used', 'in', 'the', 'experiment', 'were', 'acclimated', 'to', 'the', 'laboratory', 'conditions', 'for', 'a', 'week', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
-	"sample3": {
-		"tokens": ['Mice', 'were', 'subjected', 'to', 'varying', 'levels', 'of', 'noise', 'to', 'study', 'its', 'impact', 'on', 'their', 'auditory', 'behavior', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    "sample3": {
+		"tokens": ['Six', 'male', 'guinea', 'pigs', 'were', 'administered', 'the', 'experimental', 'drug', 'orally', 'twice', 'daily', 'for', 'two', 'weeks', '.'],
+		"labels": ['O', 'O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample4": {
-		"tokens": ['Drosophila', 'melanogaster', 'larvae', 'were', 'exposed', 'to', 'different', 'concentrations', 'of', 'chemicals', 'to', 'study', 'their', 'growth', 'and', 'development', '.'],
-		"labels": ['Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
+		"tokens": ['A', 'group', 'of', 'hamsters', 'was', 'exposed', 'to', 'UV', 'radiation', 'for', 'varying', 'periods', 'of', 'time', '.'],
+		"labels": ['O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    },
 	"sample5": {
-		"tokens": ['Rats', 'were', 'fed', 'a', 'diet', 'high', 'in', 'fat', 'to', 'evaluate', 'its', 'impact', 'on', 'cardiovascular', 'health', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'frogs', 'were', 'kept', 'in', 'aquariums', 'with', 'regulated', 'temperature', 'and', 'humidity', 'levels', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }
 }

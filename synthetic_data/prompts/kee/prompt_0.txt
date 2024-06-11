@@ -25,24 +25,24 @@ Here are five examples:
 
 {
 	"sample0": {
-		"tokens": ['Because', 'rodents', 'naturally', 'avoid', 'open', 'fields', 'and', 'prefer', 'to', 'stay', 'in', 'the', 'periphery', 'of', 'the', 'testing', 'cage', 'or', 'against', 'walls', '(', 'thigmotaxis', ')', ',', 'mice', 'tend', 'to', 'show', 'fewer', 'center', 'crossings', 'during', 'periods', 'of', 'stress', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Briefly', ',', 'diluted', 'blood', 'plasma', 'was', 'stained', 'with', 'a', 'bead', 'mixture', 'containing', 'Luminex', 'beads', 'of', 'five', 'different', 'regions', 'coupled', 'with', 'antibodies', 'specific', 'for', 'mouse', 'IgG1', ',', 'IgG2a', ',', 'IgG3', ',', 'IgM', ',', 'and', 'IgA', '(', 'BD', 'Pharmingen', ';', 'Bio', 'Plex', 'Bead', 'coupling', 'Kit', ';', 'Biorad', ',', 'CA', ',', 'USA', ')', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample1": {
-		"tokens": ['Figure', '1A', 'lists', 'examples', 'of', 'these', 'arrhythmias', 'found', 'in', 'the', 'rats', 'used', 'in', 'this', 'study', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Sperm', 'samples', 'obtained', 'from', 'the', 'distal', 'region', 'of', 'the', 'vas', 'deferens', 'of', 'the', 'rats', 'were', 'used', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O']
     }, 
 	"sample2": {
-		"tokens": ['After', 'washing', ',', 'the', 'plates', 'were', 'incubated', 'with', '100', 'l', '/', 'well', 'of', '2', 'g', '/', 'ml', 'biotinylated', 'anti', '-', 'mouse', 'IgM', '(', 'R6', '-', '60', '.', '2', ')', 'at', 'RT', 'for', '1', 'h', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Macrophages', 'were', 'grown', 'for', '3', 'days', 'in', 'DMEM', '/', 'F12', 'supplemented', 'with', 'L', '-', 'Gln', ',', 'Pen', '-', 'Strep', ',', '10', '%', 'FBS', ',', 'and', '10', 'nM', 'mouse', 'recombinant', 'M', '-', 'CSF', '(', 'eBioscience', ')', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample3": {
-		"tokens": ['Pneumococci', 'were', 'harvested', 'the', 'next', 'day', 'by', 'centrifugation', ',', 'and', 'resuspended', 'in', 'BHI', 'containing', '20', '%', '(', 'v', '/', 'v', ')', 'fetal', 'calf', 'serum', 'for', '4', 'h', 'at', '37', 'C', 'to', 'an', 'OD500', 'of', '1', '.', '6', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['They', 'facilities', 'were', 'maintained', 'at', '20', '-', '24', 'C', ',', 'with', 'a', '50', '%', 'relative', 'humidity', ',', 'and', 'with', 'a', '12', '-', 'h', 'on', '/', 'off', 'light', 'cycle', ';', 'all', 'ratswerepermitted', 'access', 'to', 'food', 'and', 'water', 'ad', 'libitum', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample4": {
-		"tokens": ['The', 'GRCm38', 'mouse', 'genome', 'was', 'used', 'to', 'align', 'the', 'FASTQ', 'files', 'with', 'STAR', "'", 's', 'default', 'parameters', '[', 'Dobin', 'et', 'al', '.', ',', '2013', ']', '.'],
-		"labels": ['O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'positive', 'ECG', 'lead', ',', 'also', 'guided', 'through', 'the', 'muscle', ',', 'was', 'directed', 'laterally', 'and', 'positioned', 'approximately', '1', 'cm', 'below', 'the', 'rib', 'cage', ',', 'and', 'both', 'leads', 'were', 'sutured', 'to', 'the', 'muscle', 'tissue', 'in', 'a', 'lead', 'II', 'position', 'in', 'traditional', 'human', 'ECGs', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O']
     }
 }
 

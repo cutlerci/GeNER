@@ -1,20 +1,22 @@
 {
 	"sample0": {
-		"tokens": ['Male', 'C57BL/6J', 'mice', 'were', 'housed', 'in', 'standard', 'cages', 'with', 'a', '12', 'hour', 'light-dark', 'cycle', 'and', 'ad', 'libitum', 'access', 'to', 'food', 'and', 'water', 'prior', 'to', 'experimental', 'procedures', '.'],
-		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-	}, 
+		"tokens": ['Male', 'C57BL/6', 'mice', 'aged', '8-10', 'weeks', 'were', 'randomly', 'divided', 'into', 'two', 'groups', 'for', 'experimental', 'purposes', '.'],
+		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
 	"sample1": {
-		"tokens": ['The', 'Sprague-Dawley', 'rats', 'weighed', 'between', '250-300', 'grams', 'at', 'the', 'start', 'of', 'the', 'experiment', 'and', 'were', 'maintained', 'on', 'a', 'standard', 'rat', 'chow', 'diet', '.'],
-		"labels": ['O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-	}, 
+		"tokens": ['Female', 'Wistar', 'rats', 'weighing', 'between', '250-300', 'grams', 'each', 'were', 'used', 'in', 'this', 'study', '.'],
+		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
 	"sample2": {
-		"tokens": ['All', 'rabbits', 'used', 'in', 'this', 'study', 'were', 'New', 'Zealand', 'White', 'breeds', 'obtained', 'from', 'a', 'commercial', 'vendor', 'and', 'kept', 'in', 'individual', 'cages', 'under', 'specific', 'pathogen-free', 'conditions', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'Species', 'Species', 'Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-	}, 
+		"tokens": ['Three', 'groups', 'of', 'Sprague-Dawley', 'rats', 'were', 'subjected', 'to', 'different', 'feeding', 'regimens', 'in', 'order', 'to', 'assess', 'metabolic', 'parameters', '.'],
+		"labels": ['O', 'O', 'O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
 	"sample3": {
-		"tokens": ['Five', 'female', 'BALB/c', 'mice', 'were', 'randomly', 'selected', 'for', 'each', 'experimental', 'group', 'and', 'acclimated', 'to', 'the', 'housing', 'conditions', 'for', 'a', 'week', 'prior', 'to', 'any', 'procedures', '.'],
-		"labels": ['O', 'O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-	}, 
+		"tokens": ['The', 'rabbits', 'in', 'the', 'control', 'and', 'treatment', 'groups', 'were', 'monitored', 'for', 'signs', 'of', 'infection', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
 	"sample4": {
-		"tokens": ['Young', 'Fischer', '344', 'rats', 'were', 'used', 'in', 'this', 'study', 'and', 'kept', 'in', 'a', 'temperature-controlled', 'environment', 'with', 'a', '12', 'hour', 'light-dark', 'cycle', '.'],
-		"labels": ['O', 'Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O
+		"tokens": ['A', 'total', 'of', 'forty', 'mice', 'from', 'two', 'different', 'strains', 'were', 'used', 'in', 'the', 'experiment', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }
+}

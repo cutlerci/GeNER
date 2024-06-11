@@ -1,22 +1,22 @@
 {
 	"sample0": {
-		"tokens": ['The', 'Wistar', 'rats', 'were', 'randomly', 'assigned', 'to', 'either', 'the', 'control', 'group', '(', 'n', '=', '10', ')', 'or', 'the', 'experimental', 'group', '(', 'n', '=', '10', ')', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
+		"tokens": ['Male', 'C57BL/6', 'mice', 'weighing', '20-25', 'grams', 'were', 'housed', 'in', 'a', 'temperature-controlled', 'room', 'with', 'a', '12-hour', 'light/dark', 'cycle', 'and', 'provided', 'with', 'standard', 'laboratory', 'food', 'and', 'water', 'ad', 'libitum', '.'],
+		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+	},
 	"sample1": {
-		"tokens": ['After', 'an', 'overnight', 'fast', ',', 'the', 'Balb', '/', 'C', 'mice', 'were', 'sacrificed', 'for', 'tissue', 'collection', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
+		"tokens": ['Female', 'Wistar', 'rats', 'aged', '12-16', 'weeks', 'were', 'used', 'for', 'the', 'experiment', '.'],
+		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+	},
 	"sample2": {
-		"tokens": ['C57BL/6J', 'mice', 'underwent', 'gentle', 'restraint', 'and', 'were', 'subcutaneously', 'injected', 'with', 'an', 'anesthetic', 'agent', 'for', 'surgical', 'procedures', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
+		"tokens": ['Wild-type', 'zebrafish', 'embryos', 'at', '48', 'hours', 'post-fertilization', 'were', 'selected', 'for', 'the', 'studies', '.'],
+		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+	},
 	"sample3": {
-		"tokens": ['Sprague-Dawley', 'rats', 'were', 'housed', 'in', 'standardized', 'cages', 'with', 'ad', 'libitum', 'access', 'to', 'food', 'and', 'water', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
+		"tokens": ['B6C3F1', 'mice', 'at', '8-10', 'weeks', 'old', 'were', 'used', 'for', 'the', 'toxicology', 'studies', '.'],
+		"labels": ['Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+	},
 	"sample4": {
-		"tokens": ['The', 'CD-1', 'mice', 'were', 'acclimatized', 'to', 'the', 'laboratory', 'conditions', 'for', 'one', 'week', 'prior', 'to', 'the', 'experimental', 'procedures', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }
+		"tokens": ['Sprague-Dawley', 'rats', 'weighing', '250-300', 'grams', 'were', 'maintained', 'under', 'standard', 'laboratory', 'conditions', '.'],
+		"labels": ['Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+	}
 }

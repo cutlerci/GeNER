@@ -25,24 +25,24 @@ Here are five examples:
 
 {
 	"sample0": {
-		"tokens": ['Before', 'necropsy', ',', 'food', 'was', 'withheld', 'for', '24', 'h', 'and', 'the', 'rats', 'were', 'anesthetized', 'with', 'an', 'overdose', 'of', 'sodium', 'pentobarbital', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Thereby', ',', '72', 'consecutive', 'values', 'of', '10', '-', 'minutes', 'data', 'segments', 'were', 'obtained', 'per', 'rat', 'per', 'day', 'and', 'per', 'parameter', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample1": {
-		"tokens": ['Mice', 'naturally', 'prefer', 'to', 'stay', 'in', 'the', 'periphery', 'of', 'the', 'testing', 'box', 'instead', 'of', 'exploring', 'the', 'open', 'fields', ',', 'thereafter', ',', 'the', 'decrease', 'of', 'center', 'crossings', 'can', 'be', 'a', 'sign', 'for', 'animals', 'under', 'stress', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Because', 'rodents', 'naturally', 'avoid', 'open', 'fields', 'and', 'prefer', 'to', 'stay', 'in', 'the', 'periphery', 'of', 'the', 'testing', 'cage', 'or', 'against', 'walls', '(', 'thigmotaxis', ')', ',', 'mice', 'tend', 'to', 'show', 'fewer', 'center', 'crossings', 'during', 'periods', 'of', 'stress', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample2": {
-		"tokens": ['During', 'the', 'first', 'week', 'of', 'postoperative', 'recovery', ',', 'the', 'rat', 's', 'diet', 'was', 'supplemented', 'with', 'fruit', 'and', 'bacon', 'treats', ',', 'and', 'animals', 'were', 'observed', 'three', 'times', 'a', 'day', 'for', 'any', 'signs', 'of', 'discomfort', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'muscle', 'was', 'removed', 'from', 'the', 'rat', ',', 'fixed', 'immediately', 'in', '10', '%', 'formalin', ',', 'processed', ',', 'and', 'embedded', 'in', 'paraffin', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample3": {
-		"tokens": ['At', 'the', 'end', 'of', 'the', '4', 'min', 'recording', 'session', ',', 'the', 'axillary', 'temperature', 'of', 'each', 'pup', 'was', 'measured', 'by', 'gentle', 'insertion', 'of', 'the', 'thermal', 'probe', 'in', 'the', 'skin', 'pocket', 'between', 'upper', 'foreleg', 'and', 'chest', 'of', 'the', 'animal', 'for', 'about', '30', 's', '(', 'Microprobe', 'digital', 'thermometer', 'with', 'mouse', 'probe', ',', 'Stoelting', 'Co', '.', ',', 'Illinois', ',', 'USA', ')', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['A', 'blinded', 'experimenter', 'assessed', 'the', 'rodent', 's', 'behavior', 'using', '50', '-', 'second', 'video', 'epochs', 'with', 'the', 'treadmill', 'off', 'and', 'on', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample4": {
-		"tokens": ['Mice', 'were', 'euthanized', 'by', 'CO2', 'exposure', 'using', 'compressed', 'CO2', 'gas', 'followed', 'by', 'cervical', 'dislocation', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Illumina', 'SentrixMouse', 'Ref', '-', '8', ',', 'v2', 'Expression', 'BeadChips', '(', 'Illumina', ',', 'San', 'Diego', ',', 'CA', ')', 'were', 'hybridized', 'overnight', 'using', '750', 'ng', 'biotinylated', 'aRNA', 'and', 'following', 'posthybridization', 'washes', 'incubated', 'with', 'streptavidin', '-', 'conjugated', 'Cy3', 'and', 'scanned', 'at', 'a', 'resolution', 'of', '0', '.', '54', 'm', 'using', 'the', 'iScan', 'array', 'scanner', 'from', 'Illumina', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }
 }
 

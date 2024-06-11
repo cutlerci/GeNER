@@ -1,22 +1,22 @@
 {
 	"sample0": {
-		"tokens": ['Mice', 'were', 'grouped', 'into', 'five', 'experimental', 'groups', ',', 'each', 'consisting', 'of', '10', 'animals', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O']
+		"tokens": ['Male', 'Sprague-Dawley', 'rats', 'were', 'randomly', 'assigned', 'to', 'control', 'and', 'experimental', 'groups', 'for', 'the', 'study', '.'],
+		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample1": {
-		"tokens": ['Rats', 'were', 'exposed', 'to', 'a', 'daily', 'dose', 'of', '10', 'mg/kg', 'of', 'the', 'experimental', 'drug', 'for', '7', 'consecutive', 'days', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['C57BL/6', 'mice', 'were', 'housed', 'individually', 'in', 'standard', 'laboratory', 'cages', 'with', 'ad', 'libitum', 'access', 'to', 'food', 'and', 'water', '.'],
+		"labels": ['Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample2": {
-		"tokens": ['During', 'the', 'course', 'of', 'the', 'experiment', ',', 'both', 'mice', 'and', 'rats', 'were', 'used', 'as', 'animal', 'models', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Wistar', 'Han', 'rats', 'were', 'anesthetized', 'with', 'isoflurane', 'prior', 'to', 'surgery', 'to', 'reduce', 'pain', 'and', 'discomfort', '.'],
+		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample3": {
-		"tokens": ['The', 'anesthetized', 'frogs', 'were', 'monitored', 'for', 'heart', 'rate', 'and', 'respiration', 'during', 'the', 'entire', 'surgery', '.'],
-		"labels": ['O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Female', 'BALB/c', 'mice', 'were', 'chosen', 'for', 'the', 'immunohistochemical', 'analysis', 'of', 'brain', 'tissue', '.'],
+		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample4": {
-		"tokens": ['The', 'pigs', 'underwent', 'a', 'series', 'of', 'imaging', 'tests', 'to', 'assess', 'the', 'impact', 'of', 'the', 'treatment', 'on', 'organ', 'function', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Long-Evans', 'rats', 'underwent', 'preoperative', 'training', 'prior', 'to', 'the', 'start', 'of', 'the', 'behavioral', 'experiments', '.'],
+		"labels": ['Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }
 }

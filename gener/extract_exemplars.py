@@ -101,6 +101,19 @@ def extract_exemplars(preprocessed_data_path, user_selected_entity, num_exemplar
     logging.info(f"Saving exemplars to {output_file}\n\n")    
     with open(output_file, 'a' if os.path.exists(output_file) else 'w') as file:
         file.write(formatted_exemplars)
-    
+
+
+    # Prepare data for the DataFrame
+    list_of_extracted_exemplars = []
+
+    for sample_id, content in extracted_exemplars.items():
+        tokens = content["tokens"]
+        labels = content["labels"]
+        list_of_extracted_exemplars.append((sample_id, tokens, labels))
+
+    # Create DataFrame
+    extracted_exemplars_df = pd.DataFrame(list_of_extracted_exemplars, columns=["sample_id", "tokens", "labels"])
+    extracted_exemplars_df.to_pickle(f"synthetic_data/{user_selected_entity[0]}_exemplars.pkl")
+
     return extracted_exemplars
     
