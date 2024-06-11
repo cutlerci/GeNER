@@ -1,22 +1,22 @@
 {
 	"sample1": {
-		"tokens": ['The', 'study', 'included', 'three', 'experimental', 'groups', '–', 'control', 'group', ',', 'low-dose', 'group', ',', 'and', 'high-dose', 'group', '–', 'to', 'assess', 'the', 'effect', 'of', 'different', 'treatments', 'on', 'tumor', 'growth', '.'],
-		"labels": ['O', 'O', 'O', 'GroupName', 'O', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    },
+		"tokens": ['The', 'rats', 'were', 'housed', 'individually', 'in', 'standard', 'plastic', 'cages', 'with', 'ad', 'libitum', 'access', 'to', 'food', 'and', 'water', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O']
+    }, 
 	"sample2": {
-		"tokens": ['The', 'rats', 'were', 'randomly', 'assigned', 'to', 'three', 'treatment', 'groups', ':', 'saline', 'control', ',', 'low', 'concentration', 'group', ',', 'and', 'high', 'concentration', 'group', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'O']
-    },
+		"tokens": ['After', '1', 'week', 'of', 'acclimatization', ',', 'the', 'mice', 'underwent', 'behavioral', 'testing', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O']
+    }, 
 	"sample3": {
-		"tokens": ['Each', 'condition', 'was', 'run', 'in', 'triplicate', 'to', 'ensure', 'reproducibility', 'and', 'statistical', 'significance', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    },
+		"tokens": ['The', 'cages', 'were', 'cleaned', 'and', 'bedding', 'replaced', 'weekly', 'to', 'maintain', 'hygiene', 'for', 'the', 'rodents', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O']
+    }, 
 	"sample4": {
-		"tokens": ['The', 'diet-induced', 'obese', 'mice', 'were', 'divided', 'into', 'four', 'groups', ':', 'control', ',', 'low-fat', 'diet', ',', 'high-fat', 'diet', 'A', ',', 'and', 'high-fat', 'diet', 'B', '.'],
-		"labels": ['O', 'O', 'O', 'GroupName', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O']
-    },
+		"tokens": ['Mice', 'were', 'subjected', 'to', 'psychological', 'stress', 'using', 'a', 'treadmill', 'exhaustion', 'paradigm', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
 	"sample5": {
-		"tokens": ['The', 'vehicle-treated', 'and', 'compound-treated', 'groups', 'showed', 'distinct', 'differences', 'in', 'gene', 'expression', 'patterns', '.'],
-		"labels": ['O', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['During', 'the', 'experimental', 'sessions', ',', 'rodents', 'were', 'monitored', 'for', 'signs', 'of', 'distress', 'or', 'abnormal', 'behavior', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }
 }

@@ -1,22 +1,22 @@
 {
 	"sample0": {
-		"tokens": ['The', 'mice', 'were', 'randomly', 'divided', 'into', 'three', 'groups', ',', 'including', 'control', ',', 'low-dose', 'treatment', 'and', 'high-dose', 'treatment', '.'],
-		"labels": ['O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'O']
+		"tokens": ['Male', 'Wildtype', 'C57BL/6J', 'mice', 'aged', '8', 'weeks', 'were', 'used', 'in', 'this', 'experiment', '.'],
+		"labels": ['Species', 'Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample1": {
-		"tokens": ['The', 'wild-type', 'mice', 'received', 'regular', 'chow', 'while', 'the', 'gene', 'knockout', 'mice', 'were', 'fed', 'a', 'high', 'fat', 'diet', '.'],
-		"labels": ['O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    },
+		"tokens": ['Sprague-Dawley', 'rats', 'weighing', 'between', '250-300', 'grams', 'were', 'housed', 'individually', 'in', 'a', 'controlled', 'environment', '.'],
+		"labels": ['Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
 	"sample2": {
-		"tokens": ['Animals', 'from', 'the', 'treatment', 'group', 'showed', 'significantly', 'higher', 'levels', 'of', 'serotonin', 'compared', 'to', 'the', 'control', 'group', '.'],
-		"labels": ['GroupName', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O']
-    },
+		"tokens": ['The', 'study', 'included', 'female', 'F344', 'rats', 'from', 'two', 'independent', 'breeding', 'colonies', '.'],
+		"labels": ['O', 'O', 'O', 'Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
 	"sample3": {
-		"tokens": ['In', 'comparison', 'to', 'the', 'wild-type', 'mice', ',', 'the', 'transgenic', 'mice', 'performed', 'better', 'in', 'the', 'maize', 'maze', 'task', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O']
-    },
+		"tokens": ['Three', 'groups', 'of', 'male', 'CD-1', 'mice', 'were', 'randomly', 'assigned', 'to', 'different', 'treatment', 'conditions', '.'],
+		"labels": ['O', 'O', 'O', 'Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
 	"sample4": {
-		"tokens": ['The', 'control', 'group', 'showed', 'no', 'significant', 'differences', 'in', 'weight', 'compared', 'to', 'the', 'experimental', 'groups', '.'],
-		"labels": ['O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O']
+		"tokens": ['Wistar', 'albino', 'rats', 'were', 'acclimatized', 'to', 'the', 'laboratory', 'conditions', 'for', 'a', 'period', 'of', 'one', 'week', '.'],
+		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }
 }
