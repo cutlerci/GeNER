@@ -1,22 +1,22 @@
 {
 	"sample1": {
-		"tokens": ['Rats', 'were', 'administered', 'a', 'daily', 'dose', 'of', '1', 'mg/kg', 'of', 'caffeine', 'via', 'oral', 'gavage', 'for', '14', 'consecutive', 'days', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
+		"tokens": ['The', 'administration', 'of', '500', 'mg/kg', 'of', 'caffeine', 'daily', 'for', '7', 'days', 'resulted', 'in', 'a', 'significant', 'reduction', 'in', 'body', 'weight', 'compared', 'to', 'the', 'control', 'group', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O']
+	},
 	"sample2": {
-		"tokens": ['The', 'mice', 'were', 'trained', 'to', 'navigate', 'a', 'maze', 'to', 'obtain', 'a', 'food', 'reward', 'within', 'a', 'specific', 'time', 'frame', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
+		"tokens": ['The', 'experimental', 'group', 'received', 'intravenous', 'injections', 'of', '250', 'mg', 'of', 'sodium', 'chloride', 'daily', 'for', '10', 'days', '.'],
+		"labels": ['O', 'O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O']
+	},
 	"sample3": {
-		"tokens": ['Frogs', 'were', 'exposed', 'to', 'different', 'concentrations', 'of', 'pesticides', 'in', 'their', 'habitats', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
+		"tokens": ['Male', 'Sprague-Dawley', 'rats', 'underwent', 'treatment', 'with', 'the', 'herbal', 'mixture', '3', 'times', 'a', 'day', 'for', '14', 'days', '.'],
+		"labels": ['O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+	},
 	"sample4": {
-		"tokens": ['Fish', 'were', 'placed', 'in', 'a', 'container', 'with', 'varying', 'water', 'temperatures', 'to', 'observe', 'their', 'thermal', 'tolerance', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
+		"tokens": ['To', 'analyze', 'the', 'effect', 'of', 'water', 'intake', 'on', 'renal', 'function', ',', 'rats', 'were', 'divided', 'into', 'high', 'and', 'low', 'water', 'consumption', 'groups', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'GroupName', 'GroupName', 'GroupName', 'O']
+	},
 	"sample5": {
-		"tokens": ['Birds', 'in', 'the', 'study', 'were', 'marked', 'with', 'colorful', 'leg', 'bands', 'for', 'identification', 'during', 'field', 'observations', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }
+		"tokens": ['The', 'inhalation', 'of', '2', 'mg/L', 'of', 'ozone', 'twice', 'daily', 'for', '30', 'days', 'led', 'to', 'lung', 'inflammation', 'in', 'the', 'exposure', 'group', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'GroupName', 'GroupName', 'O']
+	}
 }

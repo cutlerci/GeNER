@@ -1,22 +1,22 @@
 {
 	"sample1": {
-		"tokens": ["In", "the", "current", "study", ",", "zebrafish", "were", "exposed", "to", "increasing", "concentrations", "of", "copper", "sulfate", "."],
-		"labels": ["O", "O", "O", "O", "O", "Species", "O", "O", "O", "O", "O", "O", "Species", "Species"]
-	},
+		"tokens": ['The', 'mice', 'were', 'randomly', 'assigned', 'to', 'one', 'of', 'four', 'GroupName', 'for', 'the', 'duration', 'of', 'the', 'experiment', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
 	"sample2": {
-		"tokens": ["The", "mice", "were", "housed", "in", "a", "temperature-controlled", "room", "with", "a", "12-hour", "light-dark", "cycle", "."],
-		"labels": ["O", "Species", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
-	},
+		"tokens": ['Treatment', 'groups', 'consisted', 'of', 'control', 'GroupName', ',', 'low', '-', 'dose', 'GroupName', ',', 'medium', '-', 'dose', 'GroupName', ',', 'and', 'high', '-', 'dose', 'GroupName', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O']
+    }, 
 	"sample3": {
-		"tokens": ["To", "assess", "the", "impact", "of", "various", "toxins", "on", "frog", "development", ",", "Xenopus", "laevis", "tadpoles", "were", "used", "."],
-		"labels": ["O", "O", "O", "O", "O", "O", "O", "O", "Species", "O", "O", "Species", "Species", "Species", "O", "O"]
-	},
+		"tokens": ['The', 'data', 'were', 'analyzed', 'across', 'GroupName', 'using', 'ANOVA', 'followed', 'by', 'post', '-', 'hoc', 'comparisons', 'for', 'significant', 'differences', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
 	"sample4": {
-		"tokens": ["Rats", "fed", "a", "high-fat", "diet", "showed", "significantly", "increased", "body", "weight", "compared", "to", "control", "rats", "."],
-		"labels": ["Species", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "Species", "Species", "O"]
-	},
+		"tokens": ['Results', 'from', 'the', 'GroupName', 'showed', 'a', 'significant', 'increase', 'in', 'response', 'rate', 'compared', 'to', 'the', 'control', 'GroupName', '.'],
+		"labels": ['O', 'O', 'O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'O']
+    }, 
 	"sample5": {
-		"tokens": ["The", "effect", "of", "pesticide", "exposure", "on", "bee", "colonies", "was", "studied", "over", "a", "6-month", "period", "."],
-		"labels": ["O", "O", "O", "O", "O", "O", "Species", "Species", "O", "O", "O", "O", "O", "O", "O"]
-	}
+		"tokens": ['The', 'experimental', 'GroupName', 'exhibited', 'higher', 'levels', 'of', 'activity', 'compared', 'to', 'the', 'GroupName', '.'],
+		"labels": ['O', 'O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O']
+    }
 }

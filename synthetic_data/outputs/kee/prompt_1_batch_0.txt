@@ -1,22 +1,22 @@
 {
 	"sample1": {
-		"tokens": ['Rats', 'received', 'either', 'low', 'dose', 'or', 'high', 'dose', 'exposure', 'to', 'cadmium', 'chloride', 'for', 'six', 'weeks', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'Dose', 'O', 'Dose', 'O', 'Exposure', 'O', 'Species', 'Species', 'O', 'O', 'O']
+		"tokens": ['The', 'study', 'included', 'three', 'experimental', 'groups', '–', 'control', 'group', ',', 'low-dose', 'group', ',', 'and', 'high-dose', 'group', '–', 'to', 'assess', 'the', 'effect', 'of', 'different', 'treatments', 'on', 'tumor', 'growth', '.'],
+		"labels": ['O', 'O', 'O', 'GroupName', 'O', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     },
 	"sample2": {
-		"tokens": ['In', 'this', 'experiment', ',', 'mice', 'from', 'different', 'strains', 'were', 'subjected', 'to', 'radial', 'maze', 'testing', 'to', 'assess', 'spatial', 'learning', 'abilities', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'rats', 'were', 'randomly', 'assigned', 'to', 'three', 'treatment', 'groups', ':', 'saline', 'control', ',', 'low', 'concentration', 'group', ',', 'and', 'high', 'concentration', 'group', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'O']
     },
 	"sample3": {
-		"tokens": ['To', 'evaluate', 'the', 'effect', 'of', 'ethyl', 'alcohol', 'exposure', 'on', 'zebrafish', 'behavior', ',', 'fish', 'were', 'placed', 'in', 'a', 'tank', 'containing', 'different', 'concentrations', 'of', 'alcohol', 'solution', 'for', '24', 'hours', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'Exposure', 'O', 'Species', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Exposure', 'Exposure', 'O', 'O', 'O', 'O']
+		"tokens": ['Each', 'condition', 'was', 'run', 'in', 'triplicate', 'to', 'ensure', 'reproducibility', 'and', 'statistical', 'significance', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     },
 	"sample4": {
-		"tokens": ['During', 'the', 'breeding', 'season', ',', 'birds', 'were', 'monitored', 'for', 'nest', 'building', 'behavior', 'in', 'response', 'to', 'environmental', 'stimuli', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'diet-induced', 'obese', 'mice', 'were', 'divided', 'into', 'four', 'groups', ':', 'control', ',', 'low-fat', 'diet', ',', 'high-fat', 'diet', 'A', ',', 'and', 'high-fat', 'diet', 'B', '.'],
+		"labels": ['O', 'O', 'O', 'GroupName', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O']
     },
 	"sample5": {
-		"tokens": ['In', 'vertebrate', 'studies', ',', 'fish', 'such', 'as', 'zebrafish', 'and', 'Danio', 'rerio', 'are', 'commonly', 'used', 'as', 'model', 'organisms', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'Species', 'O', 'O', 'Species', 'O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'vehicle-treated', 'and', 'compound-treated', 'groups', 'showed', 'distinct', 'differences', 'in', 'gene', 'expression', 'patterns', '.'],
+		"labels": ['O', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }
 }

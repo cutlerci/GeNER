@@ -1,22 +1,22 @@
 {
-	"sample0": {
-		"tokens": ['The', 'Wistar', 'rats', 'were', 'randomly', 'assigned', 'to', 'either', 'the', 'control', 'group', '(', 'n', '=', '10', ')', 'or', 'the', 'experimental', 'group', '(', 'n', '=', '10', ')', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
-	"sample1": {
-		"tokens": ['After', 'an', 'overnight', 'fast', ',', 'the', 'Balb', '/', 'C', 'mice', 'were', 'sacrificed', 'for', 'tissue', 'collection', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
-	"sample2": {
-		"tokens": ['C57BL/6J', 'mice', 'underwent', 'gentle', 'restraint', 'and', 'were', 'subcutaneously', 'injected', 'with', 'an', 'anesthetic', 'agent', 'for', 'surgical', 'procedures', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
-	"sample3": {
-		"tokens": ['Sprague-Dawley', 'rats', 'were', 'housed', 'in', 'standardized', 'cages', 'with', 'ad', 'libitum', 'access', 'to', 'food', 'and', 'water', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
-	"sample4": {
-		"tokens": ['The', 'CD-1', 'mice', 'were', 'acclimatized', 'to', 'the', 'laboratory', 'conditions', 'for', 'one', 'week', 'prior', 'to', 'the', 'experimental', 'procedures', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    "sample0": {
+        "tokens": ["In", "the", "experiment", ",", "rats", "were", "randomly", "assigned", "to", "control", "and", "treatment", "groups", "with", "equal", "number", "of", "animals", "."],
+        "labels": ["O", "O", "O", "O", "GroupName", "O", "O", "O", "O", "GroupName", "O", "GroupName", "GroupName", "O", "O", "O", "O", "GroupName", "O"]
+    },
+    "sample1": {
+        "tokens": ["The", "mice", "used", "in", "the", "study", "were", "divided", "into", "three", "different", "experimental", "groups", "based", "on", "their", "genetic", "background", "."],
+        "labels": ["O", "GroupName", "O", "O", "O", "O", "O", "O", "O", "GroupName", "O", "O", "GroupName", "O", "O", "O", "O", "O"]
+    },
+    "sample2": {
+        "tokens": ["Animals", "were", "separated", "into", "groups", "according", "to", "their", "sex", "and", "then", "randomly", "assigned", "to", "either", "experimental", "or", "control", "treatment", "groups", "."],
+        "labels": ["GroupName", "O", "O", "O", "GroupName", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GroupName", "O", "GroupName", "GroupName", "GroupName", "O"]
+    },
+    "sample3": {
+        "tokens": ["All", "rats", "were", "obtained", "from", "the", "same", "breeding", "colony", "and", "randomly", "assigned", "to", "experimental", "or", "control", "groups", "."],
+        "labels": ["O", "GroupName", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "GroupName", "O", "GroupName", "GroupName", "O"]
+    },
+    "sample4": {
+        "tokens": ["After", "acclimatization", "period", ",", "rats", "were", "divided", "into", "two", "groups", "equally", "based", "on", "their", "body", "weight", "."],
+        "labels": ["O", "O", "O", "O", "GroupName", "O", "GroupName", "O", "GroupName", "GroupName", "O", "O", "O", "O", "O", "O", "O"]
     }
 }

@@ -1,12 +1,3 @@
-Please generate 5 synthetic data samples to augment an NER dataset.
-
-Each sample should include a list of sentence tokens and their corresponding class labels. It is imperative that there is the exact same number of class labels as tokens in the sentence. Every generated sentence token must have a corresponding label.
-
-The complete set of generated samples should cover all requested entity types, but individual samples may vary in the number of entity types included. For each sample, include at least one token for each requested entity type. You can repeat entities within a sentence or across sentences to ensure diversity in the data. Ensure that each label corresponds to its corresponding entity type (e.g., PER for names of people, ORG for organizations, LOC for locations, DATE for dates). The output should be a Python dictionary.
-
-
-Here are five examples:
-
 {
 	"sample0": {
 		"tokens": ['For', 'this', 'assay', ',', '200', 'g', 'of', 'total', 'protein', 'fraction', 'from', 'the', 'prostates', 'of', 'treated', 'and', 'untreated', 'mice', 'was', 'precleared', 'with', 'A', '-', 'G', 'beads', 'and', 'immunoprecipitated', 'with', 'agarose', '-', 'conjugated', 'IKK', 'antibody', '(', 'Cell', 'Signaling', 'Technology', ')', ',', 'incubated', 'with', 'glutathione', 'S', '-', 'transferase', '-', 'I', 'B', 'substrate', 'and', 'subjected', 'to', 'SDS', '-', 'PAGE', 'as', 'previously', 'described', '[', '20', ']', '.'],
@@ -27,11 +18,25 @@ Here are five examples:
 	"sample4": {
 		"tokens": ['After', 'checking', 'for', 'the', 'normal', 'distribution', 'assumption', 'the', 'differences', 'between', 'exposure', 'and', 'control', '(', 'sham', ')', 'groups', 'were', 'compared', 'by', 'using', 'the', 't', '-', 'test', '.'],
 		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample5": {
+		"tokens": ['For', 'convenience', ',', 'these', 'doses', 'are', 'subsequently', 'referred', 'to', 'as', 'BPA0', '.', '25', ',', 'BPA2', '.', '5', ',', 'BPA25', ',', 'and', 'BPA250', ',', 'respectively', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'GroupName', 'O', 'O', 'GroupName', 'O', 'O', 'O']
+    }, 
+	"sample6": {
+		"tokens": ['The', 'EdgeR', '[', 'Robinson', 'et', 'al', '.', ',', '2010', ']', 'and', 'TMM', 'normalization', '[', 'Robinson', 'and', 'Oshlack', ',', '2010', ']', 'were', 'used', 'to', 'calculate', 'differentially', 'expressed', 'genes', 'using', 'the', 'exactTest', 'function', ',', 'producing', 'gene', 'lists', 'with', 'fold', 'change', 'with', 'respect', 'to', 'controls', 'and', 'the', 'corresponding', 'false', 'discovery', 'rate', '(', 'FDR', ')', 'adjusted', 'p', 'values', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample7": {
+		"tokens": ['The', 'expression', 'levels', 'of', 'HDAC2', ',', 'CREB', 'and', 'NR2B', 'mRNA', 'were', 'normalized', 'to', '-', 'actin', 'mRNA', 'and', 'the', 'values', 'of', 'the', 'control', 'group', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O']
+    }, 
+	"sample8": {
+		"tokens": ['Several', 'hematological', 'parameters', 'and', 'the', 'level', 'of', 'alkaline', 'phosphatase', 'were', 'significantly', 'differed', 'than', 'in', 'the', 'vehicle', 'control', '(', 'data', 'not', 'shown', ')', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample9": {
+		"tokens": ['(', 'D', ')', 'The', 'same', 'fear', 'conditioned', 'mice', 'showed', 'no', 'differences', 'in', 'average', 'velocity', 'during', 'exploration', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }
 }
-
-Please generate 5 synthetic data samples to augment a NER dataset consisting of the method section of scientific articles describing animal studies. 
-
-Each sample should include a list of sentence tokens and their corresponding class labels. It is imperative that there is the exact same number of class labels as tokens in the sentence. Every generated sentence token must have a corresponding label.
-
-The complete set of generated samples should cover all requested entity types, but individual samples may vary in the number of entity types included. For each sample, include at least one token for each requested entity type. You can repeat entities within a sentence or across sentences to ensure diversity in the data. Ensure the samples are of adequate length. Ensure that each label corresponds to its corresponding entity type. The entities are: GroupName. The output should be a Python dictionary.
