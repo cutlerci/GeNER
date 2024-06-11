@@ -1,0 +1,22 @@
+{
+	"sample0": {
+		"tokens": ['The', 'rats', 'were', 'housed', 'in', 'standard', 'laboratory', 'cages', 'with', 'ad', 'libitum', 'access', 'to', 'food', 'and', 'water', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample1": {
+		"tokens": ['During', 'the', 'experiment', ',', 'mice', 'were', 'kept', 'on', 'a', '12', '-', 'hour', 'light', '/', 'dark', 'cycle', 'with', 'ambient', 'temperature', 'and', 'humidity', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample2": {
+		"tokens": ['The', 'guinea', 'pigs', 'used', 'in', 'the', 'study', 'were', 'weighed', 'daily', 'and', 'the', 'experimental', 'procedure', 'was', 'conducted', 'according', 'to', 'ethical', 'guidelines', '.'],
+		"labels": ['O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample3": {
+		"tokens": ['All', 'rabbits', 'used', 'in', 'the', 'trial', 'were', 'acclimatized', 'for', 'one', 'week', 'before', 'the', 'beginning', 'of', 'the', 'experiment', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample4": {
+		"tokens": ['The', 'dogs', 'were', 'grouped', 'based', 'on', 'weight', 'and', 'breed', 'before', 'the', 'start', 'of', 'the', 'training', 'sessions', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }
+}

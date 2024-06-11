@@ -1,0 +1,22 @@
+{
+	"sample1": {
+		"tokens": ['Rats', 'were', 'administered', 'a', 'daily', 'dose', 'of', '1', 'mg/kg', 'of', 'caffeine', 'via', 'oral', 'gavage', 'for', '14', 'consecutive', 'days', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample2": {
+		"tokens": ['The', 'mice', 'were', 'trained', 'to', 'navigate', 'a', 'maze', 'to', 'obtain', 'a', 'food', 'reward', 'within', 'a', 'specific', 'time', 'frame', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample3": {
+		"tokens": ['Frogs', 'were', 'exposed', 'to', 'different', 'concentrations', 'of', 'pesticides', 'in', 'their', 'habitats', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample4": {
+		"tokens": ['Fish', 'were', 'placed', 'in', 'a', 'container', 'with', 'varying', 'water', 'temperatures', 'to', 'observe', 'their', 'thermal', 'tolerance', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample5": {
+		"tokens": ['Birds', 'in', 'the', 'study', 'were', 'marked', 'with', 'colorful', 'leg', 'bands', 'for', 'identification', 'during', 'field', 'observations', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }
+}

@@ -1,0 +1,37 @@
+Please generate 5 synthetic data samples to augment an NER dataset.
+
+Each sample should include a list of sentence tokens and their corresponding class labels. It is imperative that there is the exact same number of class labels as tokens in the sentence. Every generated sentence token must have a corresponding label.
+
+The complete set of generated samples should cover all requested entity types, but individual samples may vary in the number of entity types included. For each sample, include at least one token for each requested entity type. You can repeat entities within a sentence or across sentences to ensure diversity in the data. Ensure that each label corresponds to its corresponding entity type (e.g., PER for names of people, ORG for organizations, LOC for locations, DATE for dates). The output should be a Python dictionary.
+
+
+Here are five examples:
+
+{
+	"sample0": {
+		"tokens": ['Before', 'necropsy', ',', 'food', 'was', 'withheld', 'for', '24', 'h', 'and', 'the', 'rats', 'were', 'anesthetized', 'with', 'an', 'overdose', 'of', 'sodium', 'pentobarbital', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample1": {
+		"tokens": ['Mice', 'naturally', 'prefer', 'to', 'stay', 'in', 'the', 'periphery', 'of', 'the', 'testing', 'box', 'instead', 'of', 'exploring', 'the', 'open', 'fields', ',', 'thereafter', ',', 'the', 'decrease', 'of', 'center', 'crossings', 'can', 'be', 'a', 'sign', 'for', 'animals', 'under', 'stress', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample2": {
+		"tokens": ['During', 'the', 'first', 'week', 'of', 'postoperative', 'recovery', ',', 'the', 'rat', 's', 'diet', 'was', 'supplemented', 'with', 'fruit', 'and', 'bacon', 'treats', ',', 'and', 'animals', 'were', 'observed', 'three', 'times', 'a', 'day', 'for', 'any', 'signs', 'of', 'discomfort', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample3": {
+		"tokens": ['At', 'the', 'end', 'of', 'the', '4', 'min', 'recording', 'session', ',', 'the', 'axillary', 'temperature', 'of', 'each', 'pup', 'was', 'measured', 'by', 'gentle', 'insertion', 'of', 'the', 'thermal', 'probe', 'in', 'the', 'skin', 'pocket', 'between', 'upper', 'foreleg', 'and', 'chest', 'of', 'the', 'animal', 'for', 'about', '30', 's', '(', 'Microprobe', 'digital', 'thermometer', 'with', 'mouse', 'probe', ',', 'Stoelting', 'Co', '.', ',', 'Illinois', ',', 'USA', ')', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample4": {
+		"tokens": ['Mice', 'were', 'euthanized', 'by', 'CO2', 'exposure', 'using', 'compressed', 'CO2', 'gas', 'followed', 'by', 'cervical', 'dislocation', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }
+}
+
+Please generate 5 synthetic data samples to augment a NER dataset consisting of the method section of scientific articles describing animal studies. 
+
+Each sample should include a list of sentence tokens and their corresponding class labels. It is imperative that there is the exact same number of class labels as tokens in the sentence. Every generated sentence token must have a corresponding label.
+
+The complete set of generated samples should cover all requested entity types, but individual samples may vary in the number of entity types included. For each sample, include at least one token for each requested entity type. You can repeat entities within a sentence or across sentences to ensure diversity in the data. Ensure the samples are of adequate length. Ensure that each label corresponds to its corresponding entity type. The entities are: Species. The output should be a Python dictionary.

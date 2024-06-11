@@ -1,0 +1,22 @@
+{
+	"sample0": {
+		"tokens": ['Mice', 'were', 'grouped', 'into', 'five', 'experimental', 'groups', ',', 'each', 'consisting', 'of', '10', 'animals', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O']
+    }, 
+	"sample1": {
+		"tokens": ['Rats', 'were', 'exposed', 'to', 'a', 'daily', 'dose', 'of', '10', 'mg/kg', 'of', 'the', 'experimental', 'drug', 'for', '7', 'consecutive', 'days', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample2": {
+		"tokens": ['During', 'the', 'course', 'of', 'the', 'experiment', ',', 'both', 'mice', 'and', 'rats', 'were', 'used', 'as', 'animal', 'models', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample3": {
+		"tokens": ['The', 'anesthetized', 'frogs', 'were', 'monitored', 'for', 'heart', 'rate', 'and', 'respiration', 'during', 'the', 'entire', 'surgery', '.'],
+		"labels": ['O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample4": {
+		"tokens": ['The', 'pigs', 'underwent', 'a', 'series', 'of', 'imaging', 'tests', 'to', 'assess', 'the', 'impact', 'of', 'the', 'treatment', 'on', 'organ', 'function', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }
+}

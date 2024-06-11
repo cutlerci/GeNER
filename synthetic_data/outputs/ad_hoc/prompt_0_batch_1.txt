@@ -1,0 +1,22 @@
+{
+	"sample0": {
+		"tokens": ['The', 'Wistar', 'rats', 'were', 'randomly', 'assigned', 'to', 'either', 'the', 'control', 'group', '(', 'n', '=', '10', ')', 'or', 'the', 'experimental', 'group', '(', 'n', '=', '10', ')', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample1": {
+		"tokens": ['After', 'an', 'overnight', 'fast', ',', 'the', 'Balb', '/', 'C', 'mice', 'were', 'sacrificed', 'for', 'tissue', 'collection', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample2": {
+		"tokens": ['C57BL/6J', 'mice', 'underwent', 'gentle', 'restraint', 'and', 'were', 'subcutaneously', 'injected', 'with', 'an', 'anesthetic', 'agent', 'for', 'surgical', 'procedures', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample3": {
+		"tokens": ['Sprague-Dawley', 'rats', 'were', 'housed', 'in', 'standardized', 'cages', 'with', 'ad', 'libitum', 'access', 'to', 'food', 'and', 'water', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample4": {
+		"tokens": ['The', 'CD-1', 'mice', 'were', 'acclimatized', 'to', 'the', 'laboratory', 'conditions', 'for', 'one', 'week', 'prior', 'to', 'the', 'experimental', 'procedures', '.'],
+		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }
+}

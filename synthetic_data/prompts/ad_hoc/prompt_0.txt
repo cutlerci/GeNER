@@ -1,0 +1,37 @@
+Please generate 5 synthetic data samples to augment an NER dataset.
+
+Each sample should include a list of sentence tokens and their corresponding class labels. It is imperative that there is the exact same number of class labels as tokens in the sentence. Every generated sentence token must have a corresponding label.
+
+The complete set of generated samples should cover all requested entity types, but individual samples may vary in the number of entity types included. For each sample, include at least one token for each requested entity type. You can repeat entities within a sentence or across sentences to ensure diversity in the data. Ensure that each label corresponds to its corresponding entity type (e.g., PER for names of people, ORG for organizations, LOC for locations, DATE for dates). The output should be a Python dictionary.
+
+
+Here are five examples:
+
+{
+	"sample0": {
+		"tokens": ['Because', 'rodents', 'naturally', 'avoid', 'open', 'fields', 'and', 'prefer', 'to', 'stay', 'in', 'the', 'periphery', 'of', 'the', 'testing', 'cage', 'or', 'against', 'walls', '(', 'thigmotaxis', ')', ',', 'mice', 'tend', 'to', 'show', 'fewer', 'center', 'crossings', 'during', 'periods', 'of', 'stress', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample1": {
+		"tokens": ['Figure', '1A', 'lists', 'examples', 'of', 'these', 'arrhythmias', 'found', 'in', 'the', 'rats', 'used', 'in', 'this', 'study', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample2": {
+		"tokens": ['After', 'washing', ',', 'the', 'plates', 'were', 'incubated', 'with', '100', 'l', '/', 'well', 'of', '2', 'g', '/', 'ml', 'biotinylated', 'anti', '-', 'mouse', 'IgM', '(', 'R6', '-', '60', '.', '2', ')', 'at', 'RT', 'for', '1', 'h', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample3": {
+		"tokens": ['Pneumococci', 'were', 'harvested', 'the', 'next', 'day', 'by', 'centrifugation', ',', 'and', 'resuspended', 'in', 'BHI', 'containing', '20', '%', '(', 'v', '/', 'v', ')', 'fetal', 'calf', 'serum', 'for', '4', 'h', 'at', '37', 'C', 'to', 'an', 'OD500', 'of', '1', '.', '6', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample4": {
+		"tokens": ['The', 'GRCm38', 'mouse', 'genome', 'was', 'used', 'to', 'align', 'the', 'FASTQ', 'files', 'with', 'STAR', "'", 's', 'default', 'parameters', '[', 'Dobin', 'et', 'al', '.', ',', '2013', ']', '.'],
+		"labels": ['O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }
+}
+
+Please generate 5 synthetic data samples to augment a NER dataset consisting of the method section of scientific articles describing animal studies. 
+
+Each sample should include a list of sentence tokens and their corresponding class labels. It is imperative that there is the exact same number of class labels as tokens in the sentence. Every generated sentence token must have a corresponding label.
+
+The complete set of generated samples should cover all requested entity types, but individual samples may vary in the number of entity types included. For each sample, include at least one token for each requested entity type. You can repeat entities within a sentence or across sentences to ensure diversity in the data. Ensure the samples are of adequate length. Ensure that each label corresponds to its corresponding entity type. The entities are: Species. The output should be a Python dictionary.

@@ -1,0 +1,50 @@
+<Task Descriptions>
+You are an experienced biologist, capable of easily recognizing named entities ("species names," "dose units," and "exposure vehicles") in a paragraph of the method section of scientific articles describing animal studies. Specifically, your task is to perform named entity recognition and meet the following basic requirements: 1) Provide the output as a Python dictionary with sample IDs as keys, where each sample contains a list of tokens and their corresponding labels. Python dictionary example: 
+
+{
+    "sample1": {
+        "tokens": ["XXX", "XXX"],
+        "labels": ["XXX", "XXX"]
+    },
+    "sample2": {
+        "tokens": ["XXX", "XXX"],
+        "labels": ["XXX", "XXX"]
+    }
+}
+
+2) Include at least one token for each requested entity type for each sample. 3) You can repeat entities within a sentence or across sentences to ensure diversity in the data.
+
+<Entity Definitions>
+In biological and ecological studies, "Species" refers to a fundamental unit of classification in the taxonomic hierarchy. It represents a group of organisms capable of interbreeding and producing fertile offspring under natural conditions. Each species typically exhibits distinct morphological, physiological, and behavioral characteristics, contributing to its unique identity within an ecosystem. Within the context of scientific research involving animal subjects, "Species" denotes the specific type or category of organisms under investigation, encompassing a variety of taxa such as mammals, birds, reptiles, amphibians, fish, and invertebrates. 
+
+<Task Emphasis>
+1) Each sample should include a list of sentence tokens and their corresponding class labels. It is imperative that the exact same number of class labels are used as tokens in the sentence. 2) Ensure that each label corresponds to its corresponding entity type. 3) Ensure the samples are of adequate length. 4) The complete set of generated samples should cover all requested entity types, but individual samples may vary in the number of entity types included.
+
+<Task Examples>
+Here are five examples:
+
+{
+	"sample0": {
+		"tokens": ['Before', 'necropsy', ',', 'food', 'was', 'withheld', 'for', '24', 'h', 'and', 'the', 'rats', 'were', 'anesthetized', 'with', 'an', 'overdose', 'of', 'sodium', 'pentobarbital', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample1": {
+		"tokens": ['Mice', 'naturally', 'prefer', 'to', 'stay', 'in', 'the', 'periphery', 'of', 'the', 'testing', 'box', 'instead', 'of', 'exploring', 'the', 'open', 'fields', ',', 'thereafter', ',', 'the', 'decrease', 'of', 'center', 'crossings', 'can', 'be', 'a', 'sign', 'for', 'animals', 'under', 'stress', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample2": {
+		"tokens": ['During', 'the', 'first', 'week', 'of', 'postoperative', 'recovery', ',', 'the', 'rat', 's', 'diet', 'was', 'supplemented', 'with', 'fruit', 'and', 'bacon', 'treats', ',', 'and', 'animals', 'were', 'observed', 'three', 'times', 'a', 'day', 'for', 'any', 'signs', 'of', 'discomfort', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample3": {
+		"tokens": ['At', 'the', 'end', 'of', 'the', '4', 'min', 'recording', 'session', ',', 'the', 'axillary', 'temperature', 'of', 'each', 'pup', 'was', 'measured', 'by', 'gentle', 'insertion', 'of', 'the', 'thermal', 'probe', 'in', 'the', 'skin', 'pocket', 'between', 'upper', 'foreleg', 'and', 'chest', 'of', 'the', 'animal', 'for', 'about', '30', 's', '(', 'Microprobe', 'digital', 'thermometer', 'with', 'mouse', 'probe', ',', 'Stoelting', 'Co', '.', ',', 'Illinois', ',', 'USA', ')', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample4": {
+		"tokens": ['Mice', 'were', 'euthanized', 'by', 'CO2', 'exposure', 'using', 'compressed', 'CO2', 'gas', 'followed', 'by', 'cervical', 'dislocation', '.'],
+		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }
+}
+
+<Prompt>
+Generate 5 synthetic data samples to augment a NER dataset comprising the method section of scientific articles describing animal studies. Start your sample number with "sample1". The entity to recognize is Species.
