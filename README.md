@@ -2,7 +2,7 @@
 
 # Generative NER (GeNER): Synthetic NER Data Creation Tool
 
-<img src="gener_logo.jpg" alt="GeNER Logo" align="right" width="233" height="233"><br>
+<img src="gener_logo.png" alt="GeNER Logo" align="right" width="233" height="233"><br>
 
 GeNER is a versatile tool for generating synthetic named entity recognition (NER) training data using large language models (LLMs). It currently supports OpenAI models but has the capacity to be expanded to include a wider selection of LLMs. The tool offers an end-to-end pipeline for generating synthetic NER data, including exemplar extraction, prompt creation, model querying, and data reformatting. Additionally, it supports multiple prompting strategies, with two currently implemented.
 
