@@ -9,3 +9,4 @@ gener/__pycache__/__main__.cpython-311.pyc
 gener/prompt_components/.DS_Store
 synthetic_data/*
 gener.log
+.DS_Store
