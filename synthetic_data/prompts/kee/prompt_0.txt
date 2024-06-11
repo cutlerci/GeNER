@@ -15,7 +15,7 @@ You are an experienced biologist, capable of easily recognizing named entities (
 2) Include at least one token for each requested entity type for each sample. 3) You can repeat entities within a sentence or across sentences to ensure diversity in the data.
 
 <Entity Definitions>
-In biological and ecological studies, "Species" refers to a fundamental unit of classification in the taxonomic hierarchy. It represents a group of organisms capable of interbreeding and producing fertile offspring under natural conditions. Each species typically exhibits distinct morphological, physiological, and behavioral characteristics, contributing to its unique identity within an ecosystem. Within the context of scientific research involving animal subjects, "Species" denotes the specific type or category of organisms under investigation, encompassing a variety of taxa such as mammals, birds, reptiles, amphibians, fish, and invertebrates. 
+In statistical analyses, "GroupName" refers to distinct categories or levels within a dataset that are compared to assess differences or effects. These groupings typically represent experimental conditions, treatment regimens, or other factors of interest being investigated. Assigning observations to appropriate group names allows researchers to conduct comparative evaluations and infer relationships or associations between variables. Group names play a crucial role in hypothesis testing, where researchers aim to determine whether observed differences between groups are statistically significant or merely due to chance.
 
 <Task Emphasis>
 1) Each sample should include a list of sentence tokens and their corresponding class labels. It is imperative that the exact same number of class labels are used as tokens in the sentence. 2) Ensure that each label corresponds to its corresponding entity type. 3) Ensure the samples are of adequate length. 4) The complete set of generated samples should cover all requested entity types, but individual samples may vary in the number of entity types included.
@@ -25,26 +25,26 @@ Here are five examples:
 
 {
 	"sample0": {
-		"tokens": ['Briefly', ',', 'diluted', 'blood', 'plasma', 'was', 'stained', 'with', 'a', 'bead', 'mixture', 'containing', 'Luminex', 'beads', 'of', 'five', 'different', 'regions', 'coupled', 'with', 'antibodies', 'specific', 'for', 'mouse', 'IgG1', ',', 'IgG2a', ',', 'IgG3', ',', 'IgM', ',', 'and', 'IgA', '(', 'BD', 'Pharmingen', ';', 'Bio', 'Plex', 'Bead', 'coupling', 'Kit', ';', 'Biorad', ',', 'CA', ',', 'USA', ')', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['From', 'each', 'sham', '-', 'exposed', 'rat', ',', 'blood', 'samples', 'were', 'also', 'collected', 'at', 'the', 'same', 'time', 'as', 'those', 'in', 'RF', '-', 'exposed', 'rats', 'mentioned', 'above', '.'],
+		"labels": ['O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O']
     }, 
 	"sample1": {
-		"tokens": ['Sperm', 'samples', 'obtained', 'from', 'the', 'distal', 'region', 'of', 'the', 'vas', 'deferens', 'of', 'the', 'rats', 'were', 'used', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O']
+		"tokens": ['Significance', 'versus', 'vehicle', 'control', ':', '*', 'p', '<', '0', '.', '05', '.'],
+		"labels": ['O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample2": {
-		"tokens": ['Macrophages', 'were', 'grown', 'for', '3', 'days', 'in', 'DMEM', '/', 'F12', 'supplemented', 'with', 'L', '-', 'Gln', ',', 'Pen', '-', 'Strep', ',', '10', '%', 'FBS', ',', 'and', '10', 'nM', 'mouse', 'recombinant', 'M', '-', 'CSF', '(', 'eBioscience', ')', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['We', 'selected', 'significant', 'genes', 'using', 'the', 'following', 'criteria', ':', '1', ')', 'gene', 'expression', 'changes', 'that', 'had', 'a', 'z', '-', 'test', 'p', 'value', 'of', '0', '.', '05', 'vs', '.', 'the', 'control', 'comparison', 'group', ';', '2', ')', 'the', 'absolute', 'value', 'of', 'Z', '-', 'ratio', 'was', 'calculated', 'to', 'be', '1', '.', '5', 'vs', '.', 'the', 'control', 'comparison', 'group', ';', '3', ')', 'the', 'False', 'Discovery', 'Rate', 'for', 'the', 'genes', 'was', '0', '.', '30', ';', '4', ')', 'the', 'average', 'Z', '-', 'score', 'over', 'all', 'sample', 'comparisons', 'were', 'not', 'negative', 'and', 'lastly', ';', '5', ')', 'a', 'one', 'way', 'independent', 'ANOVA', 'test', 'on', 'the', 'sample', 'group', 'p', 'value', 'cut', 'off', 'was', '0', '.', '05', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample3": {
-		"tokens": ['They', 'facilities', 'were', 'maintained', 'at', '20', '-', '24', 'C', ',', 'with', 'a', '50', '%', 'relative', 'humidity', ',', 'and', 'with', 'a', '12', '-', 'h', 'on', '/', 'off', 'light', 'cycle', ';', 'all', 'ratswerepermitted', 'access', 'to', 'food', 'and', 'water', 'ad', 'libitum', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['When', 'one', 'facility', 'was', 'used', 'for', 'an', 'MF', '-', 'exposed', 'group', ',', 'the', 'other', 'was', 'used', 'for', 'the', 'sham', '-', 'exposed', 'group', 'without', 'electric', 'current', 'in', 'its', 'exposure', 'coils', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample4": {
-		"tokens": ['The', 'positive', 'ECG', 'lead', ',', 'also', 'guided', 'through', 'the', 'muscle', ',', 'was', 'directed', 'laterally', 'and', 'positioned', 'approximately', '1', 'cm', 'below', 'the', 'rib', 'cage', ',', 'and', 'both', 'leads', 'were', 'sutured', 'to', 'the', 'muscle', 'tissue', 'in', 'a', 'lead', 'II', 'position', 'in', 'traditional', 'human', 'ECGs', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O']
+		"tokens": ['To', 'assess', 'significance', 'between', 'DE', '/', 'FA', 'and', 'FA', '/', 'FA', 'or', 'DE', '/', 'DE', ',', 'we', 'performed', 'a', 'repeated', 'measure', 'two', '-', 'way', 'ANOVA', 'across', 'all', '3', 'weeks', 'while', 'excluding', 'these', 'two', 'data', 'points', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }
 }
 
 <Prompt>
-Generate 5 synthetic data samples to augment a NER dataset comprising the method section of scientific articles describing animal studies. Start your sample number with "sample1". The entity to recognize is Species.
+Generate 5 synthetic data samples to augment a NER dataset comprising the method section of scientific articles describing animal studies. Start your sample number with "sample1". The entity to recognize is GroupName.

@@ -1,22 +1,12 @@
 {
 	"sample1": {
-		"tokens": ['The', 'mice', 'were', 'housed', 'individually', 'in', 'standard', 'plastic', 'cages', 'with', 'access', 'to', 'food', 'and', 'water', 'ad', 'libitum', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['From', 'each', 'sham', '-', 'exposed', 'rat', ',', 'blood', 'samples', 'were', 'also', 'collected', 'at', 'the', 'same', 'time', 'as', 'those', 'in', 'RF', '-', 'exposed', 'rats', 'mentioned', 'above', '.'],
+		"labels": ['O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O']
     }, 
 	"sample2": {
-		"tokens": ['The', 'rabbits', 'used', 'in', 'the', 'experiment', 'were', 'acclimated', 'to', 'the', 'laboratory', 'conditions', 'for', 'a', 'week', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Significance', 'versus', 'vehicle', 'control', ':', '*', 'p', '<', '0', '.', '05', '.'],
+		"labels": ['O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
-    "sample3": {
-		"tokens": ['Six', 'male', 'guinea', 'pigs', 'were', 'administered', 'the', 'experimental', 'drug', 'orally', 'twice', 'daily', 'for', 'two', 'weeks', '.'],
-		"labels": ['O', 'O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
-	"sample4": {
-		"tokens": ['A', 'group', 'of', 'hamsters', 'was', 'exposed', 'to', 'UV', 'radiation', 'for', 'varying', 'periods', 'of', 'time', '.'],
-		"labels": ['O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    },
-	"sample5": {
-		"tokens": ['The', 'frogs', 'were', 'kept', 'in', 'aquariums', 'with', 'regulated', 'temperature', 'and', 'humidity', 'levels', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }
-}
+	"sample3": {
+		"tokens": ['We', 'selected', 'significant', 'genes', 'using', 'the', 'following', 'criteria', ':', '1', ')', 'gene', 'expression', 'changes', 'that', 'had', 'a', 'z', '-', 'test', 'p', 'value', 'of', '0', '.', '05', 'vs', '.', 'the', 'control', 'comparison', 'group', ';', '2', ')', 'the', 'absolute', 'value', 'of', 'Z', '-', 'ratio', 'was', 'calculated', 'to', 'be', '1', '.', '5', 'vs', '.', 'the', 'control', 'comparison', 'group', ';', '3', ')', 'the', 'False', 'Discovery', 'Rate', 'for', 'the', 'genes', 'was', '0', '.', '30', ';', '4', ')', 'the', 'average', 'Z', '-', 'score', 'over', 'all', 'sample', 'comparisons', 'were', 'not', 'negative', 'and', 'lastly', ';', '5', ')', 'a', 'one', 'way', 'independent', 'ANOVA', 'test', 'on', 'the', 'sample', 'group', 'p', 'value', 'cut', 'off', 'was', '0', '.', '05', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O',

@@ -1,22 +1,22 @@
 {
-	"sample1": {
-		"tokens": ['The', 'rats', 'were', 'housed', 'individually', 'in', 'standard', 'plastic', 'cages', 'with', 'ad', 'libitum', 'access', 'to', 'food', 'and', 'water', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O']
-    }, 
-	"sample2": {
-		"tokens": ['After', '1', 'week', 'of', 'acclimatization', ',', 'the', 'mice', 'underwent', 'behavioral', 'testing', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O']
-    }, 
-	"sample3": {
-		"tokens": ['The', 'cages', 'were', 'cleaned', 'and', 'bedding', 'replaced', 'weekly', 'to', 'maintain', 'hygiene', 'for', 'the', 'rodents', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O']
-    }, 
-	"sample4": {
-		"tokens": ['Mice', 'were', 'subjected', 'to', 'psychological', 'stress', 'using', 'a', 'treadmill', 'exhaustion', 'paradigm', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    }, 
-	"sample5": {
-		"tokens": ['During', 'the', 'experimental', 'sessions', ',', 'rodents', 'were', 'monitored', 'for', 'signs', 'of', 'distress', 'or', 'abnormal', 'behavior', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    "sample1": {
+        "tokens": ['Animals', 'were', 'treated', 'with', 'different', 'antibiotics', '(', 'penicillin', ',', 'amoxicillin', ',', 'ceftriaxone', ')', 'for', '1', 'week', 'to', 'study', 'the', 'effect', 'on', 'gut', 'microbiota', '.'],
+        "labels": ['O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    },
+    "sample2": {
+        "tokens": ['Administration', 'of', 'different', 'doses', 'of', 'chemotherapeutic', 'agents', '(', 'cisplatin', ',', 'doxorubicin', ',', 'paclitaxel', ')', 'showed', 'varying', 'effects', 'on', 'tumor', 'regression', '.'],
+        "labels": ['O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    },
+    "sample3": {
+        "tokens": ['The', 'study', 'included', 'animals', 'assigned', 'to', 'different', 'dietary', 'groups', '(', 'high', '-', 'fat', ',', 'low', '-', 'carb', ',', 'standard', 'diet', ')', 'for', '12', 'weeks', '.'],
+        "labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O']
+    },
+    "sample4": {
+        "tokens": ['Mice', 'were', 'subjected', 'to', 'different', 'stress', 'paradigms', '(', 'restraint', 'stress', ',', 'forced', 'swim', ',', 'social', 'defeat', ')', 'to', 'evaluate', 'anxiety', 'behavior', 'levels', '.'],
+        "labels": ['O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O']
+    },
+    "sample5": {
+        "tokens": ['The', 'effect', 'of', 'different', 'light', 'conditions', '(', '12', 'hr', 'light', '-', 'dark', 'cycle', ',', 'constant', 'light', ',', 'constant', 'darkness', ')', 'on', 'circadian', 'rhythms', 'was', 'examined', '.'],
+        "labels": ['O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O']
     }
 }

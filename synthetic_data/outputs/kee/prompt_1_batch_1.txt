@@ -1,22 +1,22 @@
 {
 	"sample1": {
-		"tokens": ['To', 'assess', 'the', 'impact', 'of', 'ozone', 'exposure', 'on', 'lung', 'function', ',', 'mice', 'from', 'the', 'Balb/c', 'strain', 'were', 'subjected', 'to', 'daily', 'challenges', 'for', '4', 'weeks', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'Species', 'O', 'O', 'Species', 'O', 'O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    },
+		"tokens": ['The', 'mice', 'were', 'divided', 'into', 'control', 'group', 'and', 'experimental', 'group', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'O']
+    }, 
 	"sample2": {
-		"tokens": ['Sprague-Dawley', 'rats', 'were', 'selected', 'as', 'the', 'model', 'species', 'for', 'the', 'study', 'due', 'to', 'their', 'well-documented', 'physiological', 'responses', 'to', 'drug', 'administration', '.'],
-		"labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O']
-    },
+		"tokens": ['Doses', 'were', 'administered', 'according', 'to', 'the', 'treatment', 'groups', 'assigned', 'to', 'each', 'animal', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O']
+    }, 
 	"sample3": {
-		"tokens": ['The', 'fish', 'used', 'in', 'the', 'experiment', 'were', 'zebrafish', '(', 'Danio', 'rerio', ')', 'obtained', 'from', 'a', 'certified', 'breeding', 'facility', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    },
+		"tokens": ['Group', '1', 'received', 'a', 'low', 'dose', 'of', 'the', 'treatment', ',', 'while', 'Group', '2', 'received', 'a', 'high', 'dose', '.'],
+		"labels": ['GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
 	"sample4": {
-		"tokens": ['In', 'this', 'study', ',', 'we', 'chose', 'C57BL/6', 'mice', 'as', 'the', 'experimental', 'species', 'due', 'to', 'their', 'genetic', 'uniformity', 'and', 'well-characterized', 'behavioral', 'traits', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'Species', 'Species', 'O', 'O', 'O', 'Species', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    },
+		"tokens": ['The', 'results', 'showed', 'significant', 'differences', 'between', 'the', 'control', 'group', 'and', 'experimental', 'group', 'for', 'all', 'measured', 'parameters', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O']
+    }, 
 	"sample5": {
-		"tokens": ['To', 'simulate', 'environmental', 'conditions', 'in', 'the', 'wild', ',', 'we', 'used', 'Caucasian', 'skinks', '(', 'Chalcides', 'lacertina', ')', 'as', 'our', 'model', 'species', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'Species', 'O', 'Species', 'Species', 'O', 'O', 'O', 'O', 'Species', 'O']
+		"tokens": ['Researchers', 'randomly', 'assigned', 'rats', 'to', 'the', 'vehicle', 'control', 'group', 'or', 'one', 'of', 'three', 'treatment', 'groups', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O']
     }
 }

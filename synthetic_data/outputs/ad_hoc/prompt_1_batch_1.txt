@@ -1,22 +1,22 @@
 {
 	"sample0": {
-		"tokens": ['Male', 'Sprague-Dawley', 'rats', 'were', 'randomly', 'assigned', 'to', 'control', 'and', 'experimental', 'groups', 'for', 'the', 'study', '.'],
-		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'control', 'group', 'received', 'a', 'standard', 'diet', 'while', 'the', 'experimental', 'group', 'was', 'administered', 'a', 'high', '-', 'fat', 'diet', 'for', '12', 'weeks', '.'],
+		"labels": ['O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample1": {
-		"tokens": ['C57BL/6', 'mice', 'were', 'housed', 'individually', 'in', 'standard', 'laboratory', 'cages', 'with', 'ad', 'libitum', 'access', 'to', 'food', 'and', 'water', '.'],
-		"labels": ['Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'mice', 'were', 'randomly', 'assigned', 'to', 'one', 'of', 'three', 'treatment', 'groups', '(', 'control', ',', 'low', 'dose', ',', 'high', 'dose', ')', '.'],
+		"labels": ['O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'GroupName', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O']
     }, 
 	"sample2": {
-		"tokens": ['Wistar', 'Han', 'rats', 'were', 'anesthetized', 'with', 'isoflurane', 'prior', 'to', 'surgery', 'to', 'reduce', 'pain', 'and', 'discomfort', '.'],
-		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Rats', 'were', 'separated', 'into', 'four', 'different', 'groups', 'including', 'sham', 'surgery', ',', 'mild', 'traumatic', 'brain', 'injury', ',', 'moderate', 'traumatic', 'brain', 'injury', ',', 'and', 'severe', 'traumatic', 'brain', 'injury', 'groups', '.'],
+		"labels": ['GroupName', 'O', 'O', 'O', 'GroupName', 'O', 'GroupName', 'O', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O']
     }, 
 	"sample3": {
-		"tokens": ['Female', 'BALB/c', 'mice', 'were', 'chosen', 'for', 'the', 'immunohistochemical', 'analysis', 'of', 'brain', 'tissue', '.'],
-		"labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'experimental', 'groups', 'consisted', 'of', 'rodents', 'exposed', 'to', 'diverse', 'environments', 'for', 'various', 'time', 'periods', '.'],
+		"labels": ['O', 'GroupName', 'GroupName', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample4": {
-		"tokens": ['Long-Evans', 'rats', 'underwent', 'preoperative', 'training', 'prior', 'to', 'the', 'start', 'of', 'the', 'behavioral', 'experiments', '.'],
-		"labels": ['Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'rats', 'were', 'divided', 'into', 'two', 'groups', 'based', 'on', 'their', 'housing', 'conditions', '(', 'enriched', 'environment', 'vs', '.', 'standard', 'environment', ')', '.'],
+		"labels": ['O', 'GroupName', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O']
     }
 }

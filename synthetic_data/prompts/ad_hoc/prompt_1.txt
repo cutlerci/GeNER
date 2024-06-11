@@ -9,24 +9,24 @@ Here are five examples:
 
 {
 	"sample0": {
-		"tokens": ['Thereby', ',', '72', 'consecutive', 'values', 'of', '10', '-', 'minutes', 'data', 'segments', 'were', 'obtained', 'per', 'rat', 'per', 'day', 'and', 'per', 'parameter', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['(', 'C', ')', 'Frequency', 'of', 'the', 'indicated', 'populations', 'within', 'the', 'total', 'RFP', '+', 'infected', 'CD11b', '+', 'population', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O']
     }, 
 	"sample1": {
-		"tokens": ['Because', 'rodents', 'naturally', 'avoid', 'open', 'fields', 'and', 'prefer', 'to', 'stay', 'in', 'the', 'periphery', 'of', 'the', 'testing', 'cage', 'or', 'against', 'walls', '(', 'thigmotaxis', ')', ',', 'mice', 'tend', 'to', 'show', 'fewer', 'center', 'crossings', 'during', 'periods', 'of', 'stress', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Animals', 'were', 'tested', 'in', 'groups', 'from', 'all', 'three', 'genotypes', '(', 'PCB', '-', 'treated', 'vs', '.', 'corn', '-', 'oil', 'treated', 'controls', ')', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O']
     }, 
 	"sample2": {
-		"tokens": ['The', 'muscle', 'was', 'removed', 'from', 'the', 'rat', ',', 'fixed', 'immediately', 'in', '10', '%', 'formalin', ',', 'processed', ',', 'and', 'embedded', 'in', 'paraffin', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['ANOVA', '(', 'Post', 'hoc', 'analysis', ')', 'was', 'conducted', 'to', 'determine', 'the', 'significance', 'of', 'differences', 'of', 'mean', '+', 'standard', 'error', 'of', 'mean', 'values', 'obtained', 'from', 'control', 'and', 'alcohol', '-', 'exposed', 'animals', 'at', 'p', '<', '0', '.', '05', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample3": {
-		"tokens": ['A', 'blinded', 'experimenter', 'assessed', 'the', 'rodent', 's', 'behavior', 'using', '50', '-', 'second', 'video', 'epochs', 'with', 'the', 'treadmill', 'off', 'and', 'on', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'same', 'hippocampal', 'RNA', 'samples', 'utilized', 'for', 'cDNA', 'gene', 'array', 'studies', 'were', 'used', 'to', 'validate', 'array', 'data', 'by', 'q', '-', 'RT', '-', 'PCR', ';', 'gene', 'expression', 'comparisons', 'were', 'made', 'between', 'mTBI', 'vs', '.', 'sham', 'samples', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'GroupName', 'O', 'O']
     }, 
 	"sample4": {
-		"tokens": ['Illumina', 'SentrixMouse', 'Ref', '-', '8', ',', 'v2', 'Expression', 'BeadChips', '(', 'Illumina', ',', 'San', 'Diego', ',', 'CA', ')', 'were', 'hybridized', 'overnight', 'using', '750', 'ng', 'biotinylated', 'aRNA', 'and', 'following', 'posthybridization', 'washes', 'incubated', 'with', 'streptavidin', '-', 'conjugated', 'Cy3', 'and', 'scanned', 'at', 'a', 'resolution', 'of', '0', '.', '54', 'm', 'using', 'the', 'iScan', 'array', 'scanner', 'from', 'Illumina', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['No', 'significant', 'differences', 'were', 'found', 'by', 'ANOVA', 'between', 'any', 'of', 'the', 'cytokines', 'evaluated', 'but', 'there', 'was', 'a', 'strong', 'trend', 'for', 'reduced', 'TNF', 'and', 'IL', '-', '6', 'in', 'serum', 'from', 'the', 'Low', 'IDT', 'group', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O']
     }
 }
 
@@ -34,4 +34,4 @@ Please generate 5 synthetic data samples to augment a NER dataset consisting of 
 
 Each sample should include a list of sentence tokens and their corresponding class labels. It is imperative that there is the exact same number of class labels as tokens in the sentence. Every generated sentence token must have a corresponding label.
 
-The complete set of generated samples should cover all requested entity types, but individual samples may vary in the number of entity types included. For each sample, include at least one token for each requested entity type. You can repeat entities within a sentence or across sentences to ensure diversity in the data. Ensure the samples are of adequate length. Ensure that each label corresponds to its corresponding entity type. The entities are: Species. The output should be a Python dictionary.
+The complete set of generated samples should cover all requested entity types, but individual samples may vary in the number of entity types included. For each sample, include at least one token for each requested entity type. You can repeat entities within a sentence or across sentences to ensure diversity in the data. Ensure the samples are of adequate length. Ensure that each label corresponds to its corresponding entity type. The entities are: GroupName. The output should be a Python dictionary.

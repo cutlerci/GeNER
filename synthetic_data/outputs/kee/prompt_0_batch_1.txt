@@ -1,22 +1,22 @@
 {
-    "sample1": {
-        "tokens": ['The', 'rat', 'model', 'is', 'commonly', 'used', 'in', 'biomedical', 'research', 'to', 'study', 'various', 'diseases', '.'],
-        "labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    },
-    "sample2": {
-        "tokens": ['C57BL/6', 'mice', 'were', 'fed', 'a', 'high-fat', 'diet', 'to', 'induce', 'obesity', 'for', 'subsequent', 'intervention', 'studies', '.'],
-        "labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    },
-    "sample3": {
-        "tokens": ['Zebra', 'fish', 'were', 'exposed', 'to', 'different', 'concentrations', 'of', 'pollutants', 'in', 'water', 'to', 'assess', 'changes', 'in', 'gene', 'expression', '.'],
-        "labels": ['Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    },
-    "sample4": {
-        "tokens": ['African', 'clawed', 'frogs', 'were', 'used', 'in', 'developmental', 'studies', 'involving', 'exposure', 'to', 'chemicals', 'of', 'interest', '.'],
-        "labels": ['Species', 'Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
-    },
-    "sample5": {
-        "tokens": ['Rhesus', 'macaques', 'were', 'trained', 'to', 'perform', 'cognitive', 'tasks', 'for', 'neuroscience', 'research', 'purposes', '.'],
-        "labels": ['Species', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+	"sample1": {
+		"tokens": ['Participating', 'rats', 'were', 'randomly', 'assigned', 'to', 'either', 'the', 'control', 'group', 'or', 'the', 'experimental', 'group', 'for', 'the', 'duration', 'of', 'the', 'study', '.'],
+		"labels": ['O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample2": {
+		"tokens": ['After', 'administration', 'of', 'the', 'test', 'substance', ',', 'samples', 'were', 'gathered', 'from', 'the', 'treated', 'group', 'and', 'the', 'control', 'group', 'for', 'subsequent', 'analysis', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O']
+    }, 
+	"sample3": {
+		"tokens": ['The', 'diets', 'were', 'formulated', 'specifically', 'for', 'each', 'experimental', 'group', 'with', 'careful', 'consideration', 'of', 'nutritional', 'composition', 'and', 'caloric', 'intake', '.'],
+		"labels": ['O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample4": {
+		"tokens": ['To', 'compare', 'results', 'across', 'different', 'treatment', 'groups', ',', 'we', 'applied', 'appropriate', 'statistical', 'tests', 'to', 'determine', 'significance', 'levels', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+    }, 
+	"sample5": {
+		"tokens": ['Each', 'group', 'consisted', 'of', '10', 'mice', 'housing', 'in', 'separate', 'cages', 'to', 'prevent', 'interactions', 'between', 'individuals', '.'],
+		"labels": ['O', 'GroupName', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }
 }

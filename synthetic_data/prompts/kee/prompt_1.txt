@@ -15,7 +15,7 @@ You are an experienced biologist, capable of easily recognizing named entities (
 2) Include at least one token for each requested entity type for each sample. 3) You can repeat entities within a sentence or across sentences to ensure diversity in the data.
 
 <Entity Definitions>
-In biological and ecological studies, "Species" refers to a fundamental unit of classification in the taxonomic hierarchy. It represents a group of organisms capable of interbreeding and producing fertile offspring under natural conditions. Each species typically exhibits distinct morphological, physiological, and behavioral characteristics, contributing to its unique identity within an ecosystem. Within the context of scientific research involving animal subjects, "Species" denotes the specific type or category of organisms under investigation, encompassing a variety of taxa such as mammals, birds, reptiles, amphibians, fish, and invertebrates. 
+In statistical analyses, "GroupName" refers to distinct categories or levels within a dataset that are compared to assess differences or effects. These groupings typically represent experimental conditions, treatment regimens, or other factors of interest being investigated. Assigning observations to appropriate group names allows researchers to conduct comparative evaluations and infer relationships or associations between variables. Group names play a crucial role in hypothesis testing, where researchers aim to determine whether observed differences between groups are statistically significant or merely due to chance.
 
 <Task Emphasis>
 1) Each sample should include a list of sentence tokens and their corresponding class labels. It is imperative that the exact same number of class labels are used as tokens in the sentence. 2) Ensure that each label corresponds to its corresponding entity type. 3) Ensure the samples are of adequate length. 4) The complete set of generated samples should cover all requested entity types, but individual samples may vary in the number of entity types included.
@@ -25,26 +25,26 @@ Here are five examples:
 
 {
 	"sample0": {
-		"tokens": ['Thereby', ',', '72', 'consecutive', 'values', 'of', '10', '-', 'minutes', 'data', 'segments', 'were', 'obtained', 'per', 'rat', 'per', 'day', 'and', 'per', 'parameter', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['(', 'C', ')', 'Frequency', 'of', 'the', 'indicated', 'populations', 'within', 'the', 'total', 'RFP', '+', 'infected', 'CD11b', '+', 'population', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O']
     }, 
 	"sample1": {
-		"tokens": ['Because', 'rodents', 'naturally', 'avoid', 'open', 'fields', 'and', 'prefer', 'to', 'stay', 'in', 'the', 'periphery', 'of', 'the', 'testing', 'cage', 'or', 'against', 'walls', '(', 'thigmotaxis', ')', ',', 'mice', 'tend', 'to', 'show', 'fewer', 'center', 'crossings', 'during', 'periods', 'of', 'stress', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['Animals', 'were', 'tested', 'in', 'groups', 'from', 'all', 'three', 'genotypes', '(', 'PCB', '-', 'treated', 'vs', '.', 'corn', '-', 'oil', 'treated', 'controls', ')', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O']
     }, 
 	"sample2": {
-		"tokens": ['The', 'muscle', 'was', 'removed', 'from', 'the', 'rat', ',', 'fixed', 'immediately', 'in', '10', '%', 'formalin', ',', 'processed', ',', 'and', 'embedded', 'in', 'paraffin', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['ANOVA', '(', 'Post', 'hoc', 'analysis', ')', 'was', 'conducted', 'to', 'determine', 'the', 'significance', 'of', 'differences', 'of', 'mean', '+', 'standard', 'error', 'of', 'mean', 'values', 'obtained', 'from', 'control', 'and', 'alcohol', '-', 'exposed', 'animals', 'at', 'p', '<', '0', '.', '05', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'GroupName', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
     }, 
 	"sample3": {
-		"tokens": ['A', 'blinded', 'experimenter', 'assessed', 'the', 'rodent', 's', 'behavior', 'using', '50', '-', 'second', 'video', 'epochs', 'with', 'the', 'treadmill', 'off', 'and', 'on', '.'],
-		"labels": ['O', 'O', 'O', 'O', 'O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['The', 'same', 'hippocampal', 'RNA', 'samples', 'utilized', 'for', 'cDNA', 'gene', 'array', 'studies', 'were', 'used', 'to', 'validate', 'array', 'data', 'by', 'q', '-', 'RT', '-', 'PCR', ';', 'gene', 'expression', 'comparisons', 'were', 'made', 'between', 'mTBI', 'vs', '.', 'sham', 'samples', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'O', 'O', 'GroupName', 'O', 'O']
     }, 
 	"sample4": {
-		"tokens": ['Illumina', 'SentrixMouse', 'Ref', '-', '8', ',', 'v2', 'Expression', 'BeadChips', '(', 'Illumina', ',', 'San', 'Diego', ',', 'CA', ')', 'were', 'hybridized', 'overnight', 'using', '750', 'ng', 'biotinylated', 'aRNA', 'and', 'following', 'posthybridization', 'washes', 'incubated', 'with', 'streptavidin', '-', 'conjugated', 'Cy3', 'and', 'scanned', 'at', 'a', 'resolution', 'of', '0', '.', '54', 'm', 'using', 'the', 'iScan', 'array', 'scanner', 'from', 'Illumina', '.'],
-		"labels": ['O', 'Species', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O']
+		"tokens": ['No', 'significant', 'differences', 'were', 'found', 'by', 'ANOVA', 'between', 'any', 'of', 'the', 'cytokines', 'evaluated', 'but', 'there', 'was', 'a', 'strong', 'trend', 'for', 'reduced', 'TNF', 'and', 'IL', '-', '6', 'in', 'serum', 'from', 'the', 'Low', 'IDT', 'group', '.'],
+		"labels": ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'GroupName', 'GroupName', 'GroupName', 'O']
     }
 }
 
 <Prompt>
-Generate 5 synthetic data samples to augment a NER dataset comprising the method section of scientific articles describing animal studies. Start your sample number with "sample1". The entity to recognize is Species.
+Generate 5 synthetic data samples to augment a NER dataset comprising the method section of scientific articles describing animal studies. Start your sample number with "sample1". The entity to recognize is GroupName.
