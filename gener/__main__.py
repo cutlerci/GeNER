@@ -78,7 +78,6 @@ def validate_args(args):
 
 
 # In order of priority
-# TODO: Export PKL of Exemplars
 # TODO: Unit testing
 # TODO: Add functionality to override the number of requested prompts if not enough suitable instances exist.
 
