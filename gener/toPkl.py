@@ -2,7 +2,7 @@
 # This file takes formatted, generated output from GPT and turns it into .pkl files 
 # You can run as follows via terminal
 #   python3 toPkl.py <filename.txt> <output.pkl>
-#   python3toPkl.py Species_exemplars.txt pickle.pkl
+#   python3 toPkl.py Species_exemplars.txt pickle.pkl
 # or you can import the functions
 
 import pandas as pd
@@ -88,9 +88,10 @@ def pickling(dataframe1, outputPath = "default.pkl"):
 #                       MAIN                        #
 #####################################################
 
-sys.argv.pop(0)
+if __name__ == '__main__':
+    sys.argv.pop(0)
 
-fileName = sys.argv.pop(0)
+    fileName = sys.argv.pop(0)
 
-dataframe1 = getInputFile(fileName)
-pickling(dataframe1, "pickled.pkl")
+    dataframe1 = getInputFile(fileName)
+    pickling(dataframe1, "pickled.pkl")
